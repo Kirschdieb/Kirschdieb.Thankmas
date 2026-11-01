@@ -1,0 +1,74 @@
+{
+  "Type": "NoiseRange",
+  "Biomes": [
+    {
+      "Biome" : "Basic",
+      "Min" : -1,
+      "Max" : -0.3
+    },
+    {
+      "Biome" : "ChristmasMountains",
+      "Min" : 0.5,
+      "Max" : 0.55
+    },
+    {
+      "Biome" : "ChristmasMountains",
+      "Min" : 0.725,
+      "Max" : 0.775
+    },
+    {
+      "Biome" : "ChristmasMountains",
+      "Min" : 0.95,
+      "Max" : 1
+    }
+  ],
+  "DefaultBiome": "Basic",
+  "DefaultTransitionDistance": 32,
+  "MaxBiomeEdgeDistance" : 32,
+  "Density": {
+    "Type" : "Imported",
+    "Name" : "Biome-Map_Thanksmas"
+	},
+  "SpawnPositions" : {
+    "Type" : "Imported",
+    "Name" : "Portals-Drasslheim-Spawn"
+  },
+  "Framework" : [
+    {
+      "Type" : "Positions",
+      "Entries" : [
+        {
+          "Name" : "Spawns",
+          "Positions" : {
+            "Type" : "List",
+            "ExportAs" : "Portals-Drasslheim-Spawn",
+            "Positions": [
+              {
+                "X": 0,
+                "Y": 201,
+                "Z": 0
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Type" : "DecimalConstants",
+      "Entries" : [
+        {
+          "Name" : "Base",
+          "Value" : 100
+        },
+        {
+          "Name" : "Water",
+          "Value" : 100
+        },
+        {
+          "Name" : "Bedrock",
+          "Value" : 0
+        }
+      ]
+    }
+  ]
+}
