@@ -20,7 +20,7 @@
   "IsSavingPlayers": true,
   "WorldGen": {
     "Type": "HytaleGenerator",
-    "WorldStructure": "ThanksmasCombined"
+    "WorldStructure": "Thankmas_Winterlands"
   },
   "IsSpawnMarkersEnabled": true,
   "DeleteOnRemove": false

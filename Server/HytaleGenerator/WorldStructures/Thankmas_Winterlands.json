@@ -2,23 +2,13 @@
   "Type": "NoiseRange",
   "Biomes": [
     {
-      "Biome" : "Basic",
+      "Biome" : "GlacierHills",
       "Min" : -1,
-      "Max" : -0.3
+      "Max" : -0.2
     },
     {
-      "Biome" : "ChristmasMountains",
-      "Min" : 0.5,
-      "Max" : 0.55
-    },
-    {
-      "Biome" : "ChristmasMountains",
-      "Min" : 0.725,
-      "Max" : 0.775
-    },
-    {
-      "Biome" : "ChristmasMountains",
-      "Min" : 0.95,
+      "Biome" : "WinterMountains",
+      "Min" : -0.2,
       "Max" : 1
     }
   ],

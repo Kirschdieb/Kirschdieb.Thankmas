@@ -17,13 +17,13 @@
 							"$NodeId":	"Constant.Density-3c6845d5-0afd-4193-9b37-5bca7b89f32a",
 							"Type":	"Constant",
 							"Skip":	false,
-							"Value":	0
+							"Value":	0.0
 						}, {
 							"$NodeId":	"YSampled.Density-2526c9cc-9b4e-47d7-8c50-9b74ddb52212",
 							"Type":	"YSampled",
 							"Skip":	false,
-							"SampleDistance":	4,
-							"SampleOffset":	0,
+							"SampleDistance":	4.0,
+							"SampleOffset":	0.0,
 							"Interpolate":	true,
 							"Inputs":	[{
 									"$NodeId":	"Sum.Density-69e78800-398a-4a19-a50e-6a23c7606a9f",
@@ -37,7 +37,7 @@
 													"$NodeId":	"Constant.Density-d624508f-fb22-46d4-bf84-3bf82fe68aa8",
 													"Type":	"Constant",
 													"Skip":	false,
-													"Value":	0
+													"Value":	0.0
 												}, {
 													"$NodeId":	"Mix.Density-2da1735d-c52b-414a-a969-00568fd8f3f1",
 													"Type":	"Mix",
@@ -46,7 +46,7 @@
 															"$NodeId":	"Constant.Density-271bfb6c-3405-458a-9b97-fc322483049e",
 															"Type":	"Constant",
 															"Skip":	false,
-															"Value":	0
+															"Value":	0.0
 														}, {
 															"$NodeId":	"MultiMix.Density-6fb812de-68ec-4984-9d4a-85b5aa8b2601",
 															"Type":	"MultiMix",
@@ -55,13 +55,13 @@
 																	"$NodeId":	"Constant.Density-2078ff15-9e97-41cf-a1af-08efa9872b4f",
 																	"Type":	"Constant",
 																	"Skip":	false,
-																	"Value":	1
+																	"Value":	1.0
 																}, {
 																	"$NodeId":	"Normalizer.Density-5362f575-3b3b-4316-8534-c61dc0c47217",
 																	"Type":	"Normalizer",
 																	"Skip":	false,
-																	"FromMin":	0,
-																	"FromMax":	1,
+																	"FromMin":	0.0,
+																	"FromMax":	1.0,
 																	"ToMin":	-0.2,
 																	"ToMax":	0.2,
 																	"Inputs":	[{
@@ -72,9 +72,9 @@
 																					"$NodeId":	"CellNoise3D.Density-26d19988-b330-44ed-9ae5-2842db0cdd65",
 																					"Type":	"CellNoise3D",
 																					"Skip":	false,
-																					"ScaleX":	30,
-																					"ScaleY":	30,
-																					"ScaleZ":	30,
+																					"ScaleX":	30.0,
+																					"ScaleY":	30.0,
+																					"ScaleZ":	30.0,
 																					"Jitter":	0.3,
 																					"CellType":	"Distance2Div",
 																					"Octaves":	2
@@ -84,7 +84,7 @@
 																	"$NodeId":	"Constant.Density-36c2c8f7-1466-48af-80fc-c2b5f423008d",
 																	"Type":	"Constant",
 																	"Skip":	false,
-																	"Value":	-1
+																	"Value":	-1.0
 																}, {
 																	"$NodeId":	"Imported.Density-3c31201a-1d3d-4b5b-84c5-71e2bebf6800",
 																	"Type":	"Imported",
@@ -97,7 +97,7 @@
 																	"DensityIndex":	0
 																}, {
 																	"$NodeId":	"Key.MultiMix.Density-f54c5eb3-d843-4744-b90a-10b3bc7b1603",
-																	"Value":	0,
+																	"Value":	0.0,
 																	"DensityIndex":	1
 																}, {
 																	"$NodeId":	"Key.MultiMix.Density-45c4f3e8-dafe-4f63-9329-4fb0519bab70",
@@ -109,18 +109,18 @@
 															"Type":	"Normalizer",
 															"Skip":	false,
 															"FromMin":	-0.2,
-															"FromMax":	1,
-															"ToMin":	0,
-															"ToMax":	1,
+															"FromMax":	1.0,
+															"ToMin":	0.0,
+															"ToMax":	1.0,
 															"Inputs":	[{
 																	"$NodeId":	"SimplexNoise2D.Density-9bf985dd-e069-4324-b27a-e7dfe9dda2d1",
 																	"Type":	"SimplexNoise2D",
 																	"ExportAs":	"SpikeyMap",
 																	"Skip":	false,
-																	"Lacunarity":	2,
+																	"Lacunarity":	2.0,
 																	"Persistence":	0.7,
 																	"Octaves":	3,
-																	"Scale":	150
+																	"Scale":	150.0
 																}]
 														}]
 												}, {
@@ -128,9 +128,9 @@
 													"Type":	"Normalizer",
 													"Skip":	false,
 													"FromMin":	-0.4,
-													"FromMax":	0,
-													"ToMin":	0,
-													"ToMax":	1,
+													"FromMax":	0.0,
+													"ToMin":	0.0,
+													"ToMax":	1.0,
 													"Inputs":	[{
 															"$NodeId":	"Imported.Density-165ce76c-33c1-430b-bb17-53b62d1d36bb",
 															"Type":	"Imported",
@@ -175,7 +175,7 @@
 																									"$NodeId":	"Constant.Density-fb56aa58-8412-4d01-a5c3-e6bc8547ffbd",
 																									"Type":	"Constant",
 																									"Skip":	false,
-																									"Value":	0
+																									"Value":	0.0
 																								}, {
 																									"$NodeId":	"Sum.Density-2a52f8eb-e966-4962-8bab-8ff00cd7a543",
 																									"Type":	"Sum",
@@ -188,7 +188,7 @@
 																													"$NodeId":	"Constant.Density-c52c992c-00a1-4781-be2f-2ee351342afa",
 																													"Type":	"Constant",
 																													"Skip":	false,
-																													"Value":	0
+																													"Value":	0.0
 																												}, {
 																													"$NodeId":	"Sum.Density-d553a605-5eae-401c-b94b-ea2fcca96a3f",
 																													"Type":	"Sum",
@@ -197,15 +197,15 @@
 																															"$NodeId":	"Normalizer.Density-e9bd1f49-b54f-43d4-aebf-195acf2c9dd2",
 																															"Type":	"Normalizer",
 																															"Skip":	false,
-																															"FromMin":	0,
-																															"FromMax":	1,
+																															"FromMin":	0.0,
+																															"FromMax":	1.0,
 																															"ToMin":	-0.2,
 																															"ToMax":	0.3,
 																															"Inputs":	[{
 																																	"$NodeId":	"Pow.Density-790c1e32-463c-42c8-9b28-1e6699030913",
 																																	"Type":	"Pow",
 																																	"Skip":	false,
-																																	"Exponent":	2,
+																																	"Exponent":	2.0,
 																																	"Inputs":	[{
 																																			"$NodeId":	"Inverter.Density-3ca5808a-78ac-46e3-827d-80274b84d242",
 																																			"Type":	"Inverter",
@@ -214,7 +214,7 @@
 																																					"$NodeId":	"YOverride.Density-ac2b7de7-bfe8-478e-9ae6-82c67e1bbaf2",
 																																					"Type":	"YOverride",
 																																					"Skip":	false,
-																																					"Value":	0,
+																																					"Value":	0.0,
 																																					"Inputs":	[{
 																																							"$NodeId":	"Cache.Density-03423a2a-9433-4826-89af-f4fb45e67bb1",
 																																							"Type":	"Cache",
@@ -228,26 +228,26 @@
 																																											"$NodeId":	"Normalizer.Density-e6f5fc53-1b77-40d1-bd83-12d3cde0306d",
 																																											"Type":	"Normalizer",
 																																											"Skip":	false,
-																																											"FromMin":	-1,
-																																											"FromMax":	1,
+																																											"FromMin":	-1.0,
+																																											"FromMax":	1.0,
 																																											"ToMin":	-0.8,
 																																											"ToMax":	0.8,
 																																											"Inputs":	[{
 																																													"$NodeId":	"FastGradientWarp.Density-d7600399-3aa8-4298-af4f-7da609bca49a",
 																																													"Type":	"FastGradientWarp",
 																																													"Skip":	false,
-																																													"WarpScale":	100,
+																																													"WarpScale":	100.0,
 																																													"WarpPersistence":	0.5,
-																																													"WarpLacunarity":	2,
+																																													"WarpLacunarity":	2.0,
 																																													"WarpOctaves":	2,
-																																													"WarpFactor":	50,
+																																													"WarpFactor":	50.0,
 																																													"Seed":	"A",
 																																													"Inputs":	[{
 																																															"$NodeId":	"CellNoise2D.Density-72ccfee6-a546-4c28-a01e-5c907377ece9",
 																																															"Type":	"CellNoise2D",
 																																															"Skip":	false,
-																																															"ScaleX":	70,
-																																															"ScaleZ":	70,
+																																															"ScaleX":	70.0,
+																																															"ScaleZ":	70.0,
 																																															"Jitter":	0.3,
 																																															"CellType":	"Distance2Div",
 																																															"Octaves":	1
@@ -257,16 +257,16 @@
 																																											"$NodeId":	"Normalizer.Density-261a6b57-8634-4f5c-9bf1-33901efcea0a",
 																																											"Type":	"Normalizer",
 																																											"Skip":	false,
-																																											"FromMin":	-1,
-																																											"FromMax":	1,
+																																											"FromMin":	-1.0,
+																																											"FromMax":	1.0,
 																																											"ToMin":	-0.15,
 																																											"ToMax":	0.15,
 																																											"Inputs":	[{
 																																													"$NodeId":	"CellNoise2D.Density-68f79861-8d8d-4164-a648-09a679e6d64f",
 																																													"Type":	"CellNoise2D",
 																																													"Skip":	false,
-																																													"ScaleX":	20,
-																																													"ScaleZ":	20,
+																																													"ScaleX":	20.0,
+																																													"ScaleZ":	20.0,
 																																													"Jitter":	0.3,
 																																													"CellType":	"Distance2Div",
 																																													"Octaves":	1
@@ -288,25 +288,25 @@
 																											"$NodeId":	"Normalizer.Density-1602076a-2e9f-4bcc-8c1b-5ba533e42af4",
 																											"Type":	"Normalizer",
 																											"Skip":	false,
-																											"FromMin":	0,
-																											"FromMax":	1,
+																											"FromMin":	0.0,
+																											"FromMax":	1.0,
 																											"ToMin":	-0.2,
 																											"ToMax":	0.2,
 																											"Inputs":	[{
 																													"$NodeId":	"Clamp.Density-54c4bea4-7272-4c53-8f79-0af2fcfc6827",
 																													"Type":	"Clamp",
 																													"Skip":	false,
-																													"WallA":	0,
-																													"WallB":	1,
+																													"WallA":	0.0,
+																													"WallB":	1.0,
 																													"Inputs":	[{
 																															"$NodeId":	"SimplexNoise2D.Density-64455420-fc64-493c-ac58-18d903d97b21",
 																															"Type":	"SimplexNoise2D",
 																															"ExportAs":	"SpikeyMap",
 																															"Skip":	false,
-																															"Lacunarity":	2,
+																															"Lacunarity":	2.0,
 																															"Persistence":	0.7,
 																															"Octaves":	3,
-																															"Scale":	150
+																															"Scale":	150.0
 																														}]
 																												}]
 																										}]
@@ -315,9 +315,9 @@
 																									"Type":	"Normalizer",
 																									"Skip":	false,
 																									"FromMin":	-0.4,
-																									"FromMax":	0,
-																									"ToMin":	0,
-																									"ToMax":	1,
+																									"FromMax":	0.0,
+																									"ToMin":	0.0,
+																									"ToMax":	1.0,
 																									"Inputs":	[{
 																											"$NodeId":	"Imported.Density-9547c22f-22d2-4a62-b9d6-bcbc010923a2",
 																											"Type":	"Imported",
@@ -342,7 +342,7 @@
 																											"Skip":	false,
 																											"FromMin":	-0.5,
 																											"FromMax":	-0.3,
-																											"ToMin":	0,
+																											"ToMin":	0.0,
 																											"ToMax":	0.4,
 																											"Inputs":	[{
 																													"$NodeId":	"SmoothClamp.Density-11757c3c-3f25-4f68-90ef-fb3ac08df6e8",
@@ -359,7 +359,7 @@
 																																	"$NodeId":	"Pow.Density-d68c559e-0089-4d6e-8e36-6ca6e087ef0e",
 																																	"Type":	"Pow",
 																																	"Skip":	false,
-																																	"Exponent":	1,
+																																	"Exponent":	1.0,
 																																	"Inputs":	[{
 																																			"$NodeId":	"Abs.Density-9462aac1-93ea-40d4-828e-c12ee229decd",
 																																			"Type":	"Abs",
@@ -368,10 +368,10 @@
 																																					"$NodeId":	"SimplexNoise2D.Density-73e21d0c-84f2-482f-ad6f-c1d1fc75e687",
 																																					"Type":	"SimplexNoise2D",
 																																					"Skip":	false,
-																																					"Lacunarity":	4,
+																																					"Lacunarity":	4.0,
 																																					"Persistence":	0.2,
 																																					"Octaves":	3,
-																																					"Scale":	2000
+																																					"Scale":	2000.0
 																																				}]
 																																		}]
 																																}]
@@ -381,9 +381,9 @@
 																											"$NodeId":	"Normalizer.Density-182e85f9-9cf9-4d5d-9278-115445088848",
 																											"Type":	"Normalizer",
 																											"Skip":	false,
-																											"FromMin":	0,
-																											"FromMax":	1,
-																											"ToMin":	-1,
+																											"FromMin":	0.0,
+																											"FromMax":	1.0,
+																											"ToMin":	-1.0,
 																											"ToMax":	0.6,
 																											"Inputs":	[{
 																													"$NodeId":	"Abs.Density-cc5a9e35-4045-457f-a9cb-bd6a9c50dd05",
@@ -402,10 +402,10 @@
 																																			"$NodeId":	"SimplexNoise2D.Density-a4a5923d-2ac1-465c-b8b4-efb17008ba68",
 																																			"Type":	"SimplexNoise2D",
 																																			"Skip":	false,
-																																			"Lacunarity":	2,
+																																			"Lacunarity":	2.0,
 																																			"Persistence":	0.5,
 																																			"Octaves":	1,
-																																			"Scale":	1000,
+																																			"Scale":	1000.0,
 																																			"Seed":	"A"
 																																		}, {
 																																			"$NodeId":	"Constant.Density-b1c37e30-8870-42e0-a95d-c66c47f28264",
@@ -421,10 +421,10 @@
 																																			"$NodeId":	"SimplexNoise2D.Density-634842b8-896b-439d-a61b-73e4f562107b",
 																																			"Type":	"SimplexNoise2D",
 																																			"Skip":	false,
-																																			"Lacunarity":	2,
+																																			"Lacunarity":	2.0,
 																																			"Persistence":	0.5,
 																																			"Octaves":	1,
-																																			"Scale":	150,
+																																			"Scale":	150.0,
 																																			"Seed":	"A"
 																																		}, {
 																																			"$NodeId":	"Constant.Density-53b1f4ed-3e22-4d0e-9613-d3edba7f600d",
@@ -440,10 +440,10 @@
 																																			"$NodeId":	"SimplexNoise2D.Density-a2a81be5-795b-44b2-a762-fc87c41950f8",
 																																			"Type":	"SimplexNoise2D",
 																																			"Skip":	false,
-																																			"Lacunarity":	2,
+																																			"Lacunarity":	2.0,
 																																			"Persistence":	0.5,
 																																			"Octaves":	1,
-																																			"Scale":	100,
+																																			"Scale":	100.0,
 																																			"Seed":	"C"
 																																		}, {
 																																			"$NodeId":	"Constant.Density-a5e1012f-c752-4df2-8e20-4114800bd6f2",
@@ -467,43 +467,43 @@
 																						"Type":	"Manual",
 																						"Points":	[{
 																								"$NodeId":	"CurvePoint.Curve-32b6c9d2-1a79-4c1a-a93c-fb5d059b9528",
-																								"In":	-21.849619,
+																								"In":	-11.849619,
 																								"Out":	0.998909
 																							}, {
 																								"$NodeId":	"CurvePoint.Curve-466b2ce8-b555-4f88-ba5a-638159d3b5b5",
-																								"In":	-19.573156,
+																								"In":	-9.573156,
 																								"Out":	0.838909
 																							}, {
 																								"$NodeId":	"CurvePoint.Curve-ae718fd9-c223-4574-8b92-53184ab136e1",
-																								"In":	-17.296768,
+																								"In":	-7.296768,
 																								"Out":	0.688606
 																							}, {
 																								"$NodeId":	"CurvePoint.Curve-0db095cb-845e-4e28-b653-0744bb5fc822",
-																								"In":	-15.020306,
+																								"In":	-5.020306,
 																								"Out":	0.552849
 																							}, {
 																								"$NodeId":	"CurvePoint.Curve-83f257db-c42e-4993-b1bb-1b9ed69f492a",
-																								"In":	-8.841463,
+																								"In":	1.2,
 																								"Out":	0.499515
 																							}, {
 																								"$NodeId":	"CurvePoint.Curve-a7ecaa52-481f-490e-aea9-596e4507c08a",
-																								"In":	-7.703316,
+																								"In":	2.3,
 																								"Out":	0.428606
 																							}, {
 																								"$NodeId":	"CurvePoint.Curve-16110946-d5d3-4263-b01a-0988e105efe0",
-																								"In":	-3.800843,
+																								"In":	6.2,
 																								"Out":	0.365576
 																							}, {
 																								"$NodeId":	"CurvePoint.Curve-5f51fcc3-e414-4d1a-8fd4-1784d4190c44",
-																								"In":	3.139868,
+																								"In":	10.139868,
 																								"Out":	0.296724
 																							}, {
 																								"$NodeId":	"CurvePoint.Curve-85b42285-25d6-470d-8f68-eb6f57592ef9",
-																								"In":	126.404327,
+																								"In":	136.404327,
 																								"Out":	-0.455883
 																							}, {
 																								"$NodeId":	"CurvePoint.Curve-6d16ef7d-5755-4218-938e-75ee1a497ecb",
-																								"In":	256.712402,
+																								"In":	266.712402,
 																								"Out":	-1.021797
 																							}]
 																					},
@@ -520,8 +520,8 @@
 																	"$NodeId":	"YSampled.Density-25618b4f-3a16-4231-a307-f640e392a7cb",
 																	"Type":	"YSampled",
 																	"Skip":	false,
-																	"SampleDistance":	8,
-																	"SampleOffset":	0,
+																	"SampleDistance":	8.0,
+																	"SampleOffset":	0.0,
 																	"Interpolate":	true,
 																	"Inputs":	[{
 																			"$NodeId":	"Max.Density-b53665ce-cfa7-47df-b905-059124226d62",
@@ -540,16 +540,16 @@
 																							"$NodeId":	"Normalizer.Density-ab1b1945-9ab8-42f8-8516-72d866721e0b",
 																							"Type":	"Normalizer",
 																							"Skip":	false,
-																							"FromMin":	-1,
-																							"FromMax":	1,
+																							"FromMin":	-1.0,
+																							"FromMax":	1.0,
 																							"ToMin":	-0.1,
 																							"ToMax":	0.1,
 																							"Inputs":	[{
 																									"$NodeId":	"CellNoise2D.Density-59516686-7a5f-449f-93a7-0df9e5af8249",
 																									"Type":	"CellNoise2D",
 																									"Skip":	false,
-																									"ScaleX":	30,
-																									"ScaleZ":	30,
+																									"ScaleX":	30.0,
+																									"ScaleZ":	30.0,
 																									"Jitter":	0.3,
 																									"CellType":	"CellValue",
 																									"Octaves":	2
@@ -568,27 +568,27 @@
 																								"Type":	"Manual",
 																								"Points":	[{
 																										"$NodeId":	"CurvePoint.Curve-ae6ea83c-24a9-4b3b-a16c-cad9fb6fc134",
-																										"In":	-8.841463,
+																										"In":	1.2,
 																										"Out":	0.499515
 																									}, {
 																										"$NodeId":	"CurvePoint.Curve-a5307eb3-ecf8-4989-93cc-8b14e7930050",
-																										"In":	-7.703316,
+																										"In":	2.3,
 																										"Out":	0.428606
 																									}, {
 																										"$NodeId":	"CurvePoint.Curve-bbaff639-8954-48ed-892a-5425910ce47a",
-																										"In":	0.307515,
+																										"In":	10.007515,
 																										"Out":	0.440113
 																									}, {
 																										"$NodeId":	"CurvePoint.Curve-f42fb977-99f4-44e1-85a9-7a65bc80737b",
-																										"In":	1.094372,
+																										"In":	10.394372,
 																										"Out":	0.262982
 																									}, {
 																										"$NodeId":	"CurvePoint.Curve-2cb359b2-479c-4da0-9e6f-c30d5979ca67",
-																										"In":	12.845228,
+																										"In":	22.845228,
 																										"Out":	-0.37312
 																									}, {
 																										"$NodeId":	"CurvePoint.Curve-4ad2127f-0bbb-44c1-8a3c-721abd027106",
-																										"In":	24.435358,
+																										"In":	34.435358,
 																										"Out":	-1.176188
 																									}]
 																							},
@@ -606,18 +606,18 @@
 																											"$NodeId":	"Normalizer.Density-d8854ff2-a5d6-40db-8086-94b0227065be",
 																											"Type":	"Normalizer",
 																											"Skip":	false,
-																											"FromMin":	-1,
-																											"FromMax":	1,
-																											"ToMin":	0,
-																											"ToMax":	20,
+																											"FromMin":	-1.0,
+																											"FromMax":	1.0,
+																											"ToMin":	0.0,
+																											"ToMax":	20.0,
 																											"Inputs":	[{
 																													"$NodeId":	"SimplexNoise2D.Density-80176c4c-af67-43a2-aac0-463a70387c7e",
 																													"Type":	"SimplexNoise2D",
 																													"Skip":	false,
-																													"Lacunarity":	2,
+																													"Lacunarity":	2.0,
 																													"Persistence":	0.5,
 																													"Octaves":	1,
-																													"Scale":	100
+																													"Scale":	100.0
 																												}]
 																										}]
 																								}]
@@ -633,11 +633,11 @@
 																		"Type":	"Manual",
 																		"Points":	[{
 																				"$NodeId":	"CurvePoint.Curve-993b43cb-82bc-41ff-a2da-fe70fd3f2a23",
-																				"In":	10,
+																				"In":	20.0,
 																				"Out":	1.1
 																			}, {
 																				"$NodeId":	"CurvePoint.Curve-a95704d1-2d4a-4307-81fe-ce8444fff87e",
-																				"In":	30,
+																				"In":	40.0,
 																				"Out":	-0.1
 																			}]
 																	},
@@ -657,7 +657,7 @@
 							"$NodeId":	"Constant.Density-0145839f-99fc-404b-96e4-5a6a1cf5b52f",
 							"Type":	"Constant",
 							"Skip":	false,
-							"Value":	1
+							"Value":	1.0
 						}, {
 							"$NodeId":	"CurveMapper.Density-cfbb094a-b602-4509-8666-fc32a6b061fd",
 							"Type":	"CurveMapper",
@@ -667,20 +667,20 @@
 								"Type":	"Manual",
 								"Points":	[{
 										"$NodeId":	"CurvePoint.Curve-6f296764-ba18-445c-bb89-894602f6bd43",
-										"In":	220,
-										"Out":	0
+										"In":	220.0,
+										"Out":	0.0
 									}, {
 										"$NodeId":	"CurvePoint.Curve-e2c513f4-1e9b-4807-a42e-6b4190614649",
-										"In":	219,
-										"Out":	1
+										"In":	219.0,
+										"Out":	1.0
 									}, {
 										"$NodeId":	"CurvePoint.Curve-cc25b9e9-1183-474f-9c1d-d5199bc011da",
-										"In":	-98,
-										"Out":	1
+										"In":	-98.0,
+										"Out":	1.0
 									}, {
 										"$NodeId":	"CurvePoint.Curve-8a9787ae-9c1c-4191-beb2-64f9496193de",
-										"In":	-100,
-										"Out":	2
+										"In":	-100.0,
+										"Out":	2.0
 									}]
 							},
 							"Inputs":	[{
@@ -693,15 +693,15 @@
 						}],
 					"Keys":	[{
 							"$NodeId":	"Key.MultiMix.Density-563d520f-5c23-405a-9e07-0ad81c055099",
-							"Value":	0,
+							"Value":	0.0,
 							"DensityIndex":	0
 						}, {
 							"$NodeId":	"Key.MultiMix.Density-3a943e3c-49ce-45e0-966d-0fb3911bbd04",
-							"Value":	1,
+							"Value":	1.0,
 							"DensityIndex":	1
 						}, {
 							"$NodeId":	"Key.MultiMix.Density-54d6ca70-e957-423c-8463-1a88478c5fa7",
-							"Value":	2,
+							"Value":	2.0,
 							"DensityIndex":	2
 						}]
 				}]
@@ -721,7 +721,7 @@
 					"Skip":	false,
 					"TopY":	220,
 					"TopBaseHeight":	"Base",
-					"BottomY":	-11,
+					"BottomY":	-1,
 					"BottomBaseHeight":	"Base",
 					"Material":	{
 						"$NodeId":	"FieldFunction.MaterialProvider-8402c995-a482-4d33-986d-2448148268f1",
@@ -740,10 +740,10 @@
 											"$NodeId":	"Normalizer.Density-c9c089b9-b3b9-432f-9635-2971f8e97a9c",
 											"Type":	"Normalizer",
 											"Skip":	false,
-											"FromMin":	-1,
-											"FromMax":	1,
-											"ToMin":	-20,
-											"ToMax":	20,
+											"FromMin":	-1.0,
+											"FromMax":	1.0,
+											"ToMin":	-20.0,
+											"ToMax":	20.0,
 											"Inputs":	[{
 													"$NodeId":	"Sum.Density-6bb149e6-ef45-41cb-b540-17159a550040",
 													"Type":	"Sum",
@@ -758,10 +758,10 @@
 																	"Type":	"SimplexNoise2D",
 																	"ExportAs":	"Snow_Makro",
 																	"Skip":	false,
-																	"Lacunarity":	2,
+																	"Lacunarity":	2.0,
 																	"Persistence":	0.5,
 																	"Octaves":	1,
-																	"Scale":	900
+																	"Scale":	900.0
 																}, {
 																	"$NodeId":	"Constant.Density-bd8ff824-494f-4f69-8a57-e387911e2db7",
 																	"Type":	"Constant",
@@ -777,10 +777,10 @@
 																	"Type":	"SimplexNoise2D",
 																	"ExportAs":	"",
 																	"Skip":	false,
-																	"Lacunarity":	2,
+																	"Lacunarity":	2.0,
 																	"Persistence":	0.5,
 																	"Octaves":	1,
-																	"Scale":	300
+																	"Scale":	300.0
 																}, {
 																	"$NodeId":	"Constant.Density-71688ba9-d87c-4bd9-855c-7d7bc5a1ef50",
 																	"Type":	"Constant",
@@ -795,10 +795,10 @@
 																	"$NodeId":	"SimplexNoise2D.Density-3c51c5f0-811d-4276-a434-9213ac98ffdd",
 																	"Type":	"SimplexNoise2D",
 																	"Skip":	false,
-																	"Lacunarity":	2,
+																	"Lacunarity":	2.0,
 																	"Persistence":	0.5,
 																	"Octaves":	2,
-																	"Scale":	20
+																	"Scale":	20.0
 																}, {
 																	"$NodeId":	"Constant.Density-00219f99-6d49-47fe-98ab-52a308a8ea6c",
 																	"Type":	"Constant",
@@ -816,12 +816,12 @@
 												"Type":	"Manual",
 												"Points":	[{
 														"$NodeId":	"CurvePoint.Curve-fe48ecec-4d7d-453c-ba72-6e51e3538ac5",
-														"In":	-10,
-														"Out":	55
+														"In":	0.0,
+														"Out":	45.0
 													}, {
 														"$NodeId":	"CurvePoint.Curve-ad01b925-6cef-4654-8c3f-ff018c33756e",
-														"In":	70,
-														"Out":	0
+														"In":	80.0,
+														"Out":	0.0
 													}]
 											},
 											"Inputs":	[{
@@ -845,9 +845,9 @@
 													"IsAxis":	true,
 													"Vector":	{
 														"$NodeId":	"Decimal.Vector3d-7be4102e-47b3-4c45-9c8b-b09d3e3f3802",
-														"X":	0,
-														"Y":	1,
-														"Z":	0
+														"X":	0.0,
+														"Y":	1.0,
+														"Z":	0.0
 													},
 													"VectorProvider":	{
 														"$NodeId":	"Cache.VectorProvider-262327aa-ab1b-4ab0-8818-325bdb577561",
@@ -857,7 +857,7 @@
 															"$NodeId":	"DensityGradient.VectorProvider-03de79c7-c98c-4257-b573-e7d2ffa612f2",
 															"Type":	"DensityGradient",
 															"Skip":	false,
-															"SampleDistance":	4,
+															"SampleDistance":	4.0,
 															"Density":	{
 																"$NodeId":	"Terrain.Density-c15b3171-0daa-4c4b-abbf-9c90fa7ab9b4",
 																"Type":	"Terrain",
@@ -871,8 +871,8 @@
 						},
 						"Delimiters":	[{
 								"$NodeId":	"Delimiter.FieldFunction.MaterialProvider-30541329-aaa2-4b65-92f7-0cd8a7fdc043",
-								"From":	-40,
-								"To":	60,
+								"From":	-40.0,
+								"To":	60.0,
 								"Material":	{
 									"$NodeId":	"SpaceAndDepth.MaterialProvider-f69e1907-3a1f-4aef-9d43-9d8047d7be8e",
 									"Type":	"SpaceAndDepth",
@@ -904,12 +904,12 @@
 																"Type":	"Manual",
 																"Points":	[{
 																		"$NodeId":	"CurvePoint.Curve-6ac5d94a-4ae3-49b7-80a3-880c50148a46",
-																		"In":	20,
+																		"In":	30.0,
 																		"Out":	0.5
 																	}, {
 																		"$NodeId":	"CurvePoint.Curve-7c44eef2-b2ce-4b89-8117-118cebd73f37",
-																		"In":	80,
-																		"Out":	0
+																		"In":	90.0,
+																		"Out":	0.0
 																	}]
 															},
 															"Inputs":	[{
@@ -923,26 +923,26 @@
 															"$NodeId":	"Normalizer.Density-f87e7803-b867-4aa1-a3f4-caef8a1abba0",
 															"Type":	"Normalizer",
 															"Skip":	false,
-															"FromMin":	-1,
-															"FromMax":	1,
+															"FromMin":	-1.0,
+															"FromMax":	1.0,
 															"ToMin":	-0.1,
 															"ToMax":	0.1,
 															"Inputs":	[{
 																	"$NodeId":	"SimplexNoise2D.Density-ed43908a-1fd3-43e0-9d7e-4aebca5aa601",
 																	"Type":	"SimplexNoise2D",
 																	"Skip":	false,
-																	"Lacunarity":	2,
+																	"Lacunarity":	2.0,
 																	"Persistence":	0.5,
 																	"Octaves":	1,
-																	"Scale":	12
+																	"Scale":	12.0
 																}]
 														}, {
 															"$NodeId":	"Normalizer.Density-99568c51-46be-4cf5-8b35-a5d95e61d946",
 															"Type":	"Normalizer",
 															"Skip":	false,
-															"FromMin":	0,
-															"FromMax":	60,
-															"ToMin":	0,
+															"FromMin":	0.0,
+															"FromMax":	60.0,
+															"ToMin":	0.0,
 															"ToMax":	0.2,
 															"Inputs":	[{
 																	"$NodeId":	"Imported.Density-1faa4a65-22fb-44b7-b0de-4caa5420dc83",
@@ -960,7 +960,7 @@
 												"Delimiters":	[{
 														"$NodeId":	"Delimiter.FieldFunction.MaterialProvider-53f54eac-e6ba-46a1-b4c7-b58916ae4aa1",
 														"From":	-0.4,
-														"To":	1,
+														"To":	1.0,
 														"Material":	{
 															"$NodeId":	"Constant.MaterialProvider-52a26279-64e8-454a-b697-7212de942a96",
 															"Type":	"Constant",
@@ -973,7 +973,7 @@
 														}
 													}, {
 														"$NodeId":	"Delimiter.FieldFunction.MaterialProvider-7345644b-d515-4b9d-accc-50d3bee22434",
-														"From":	-1,
+														"From":	-1.0,
 														"To":	-0.4,
 														"Material":	{
 															"$NodeId":	"Constant.MaterialProvider-911e8d7d-5522-4704-93e9-af260fbf7549",
@@ -995,9 +995,9 @@
 					"$NodeId":	"SimpleHorizontal.MaterialProvider-52f945b6-88d4-4eab-8a90-2bb9f4f8dec6",
 					"Type":	"SimpleHorizontal",
 					"Skip":	false,
-					"TopY":	-8,
+					"TopY":	2,
 					"TopBaseHeight":	"Base",
-					"BottomY":	-30,
+					"BottomY":	-20,
 					"BottomBaseHeight":	"Base",
 					"Material":	{
 						"$NodeId":	"FieldFunction.MaterialProvider-5d5835c5-9dad-48d7-8682-9a6411e6cde9",
@@ -1016,25 +1016,25 @@
 									"$NodeId":	"Normalizer.Density-c3fd85b5-2443-45f7-af21-95aee6d94d2c",
 									"Type":	"Normalizer",
 									"Skip":	false,
-									"FromMin":	-1,
-									"FromMax":	1,
+									"FromMin":	-1.0,
+									"FromMax":	1.0,
 									"ToMin":	-0.01,
 									"ToMax":	0.03,
 									"Inputs":	[{
 											"$NodeId":	"SimplexNoise2D.Density-15af38ba-f4ad-4ed5-858d-c80c4a94a8ef",
 											"Type":	"SimplexNoise2D",
 											"Skip":	false,
-											"Lacunarity":	2,
+											"Lacunarity":	2.0,
 											"Persistence":	0.5,
 											"Octaves":	2,
-											"Scale":	20
+											"Scale":	20.0
 										}]
 								}]
 						},
 						"Delimiters":	[{
 								"$NodeId":	"Delimiter.FieldFunction.MaterialProvider-325ae89e-46da-4468-82a3-0ba7fd807dca",
-								"From":	-1,
-								"To":	-0.48,
+								"From":	-1.0,
+								"To":	-0.46,
 								"Material":	{
 									"$NodeId":	"SpaceAndDepth.MaterialProvider-4ce54b17-e6ae-445d-857a-5fddfb368843",
 									"Type":	"SpaceAndDepth",
@@ -1065,10 +1065,10 @@
 																	"$NodeId":	"SimplexNoise2D.Density-e72af642-e19e-40fa-9ada-c7d0e1ad91f8",
 																	"Type":	"SimplexNoise2D",
 																	"Skip":	false,
-																	"Lacunarity":	2,
+																	"Lacunarity":	2.0,
 																	"Persistence":	0.5,
 																	"Octaves":	1,
-																	"Scale":	30,
+																	"Scale":	30.0,
 																	"Seed":	"A"
 																}, {
 																	"$NodeId":	"Constant.Density-480f401f-2e50-4e1b-8615-3767be8addc9",
@@ -1084,10 +1084,10 @@
 																	"$NodeId":	"SimplexNoise2D.Density-172d3136-d534-44ed-aeca-f8c2130bc5f2",
 																	"Type":	"SimplexNoise2D",
 																	"Skip":	false,
-																	"Lacunarity":	2,
+																	"Lacunarity":	2.0,
 																	"Persistence":	0.5,
 																	"Octaves":	1,
-																	"Scale":	3,
+																	"Scale":	3.0,
 																	"Seed":	"A"
 																}, {
 																	"$NodeId":	"Constant.Density-62dd6ab0-9e30-4392-8cb2-dfebc92e62f5",
@@ -1099,7 +1099,7 @@
 												},
 												"Delimiters":	[{
 														"$NodeId":	"Delimiter.FieldFunction.MaterialProvider-e85d1594-ce23-4e8b-9617-e47f580081e6",
-														"From":	-1,
+														"From":	-1.0,
 														"To":	-0.5,
 														"Material":	{
 															"$NodeId":	"Constant.MaterialProvider-a538fe94-2552-4d5f-8a59-909e17de275c",
@@ -1128,7 +1128,7 @@
 													}, {
 														"$NodeId":	"Delimiter.FieldFunction.MaterialProvider-3c9ae237-c678-466e-a8a8-b9f75a2194a4",
 														"From":	0.5,
-														"To":	1,
+														"To":	1.0,
 														"Material":	{
 															"$NodeId":	"Constant.MaterialProvider-b31923ea-3f0c-4077-b69f-98fea2357393",
 															"Type":	"Constant",
@@ -1149,9 +1149,9 @@
 					"$NodeId":	"SimpleHorizontal.MaterialProvider-d6b81036-64a8-4884-8e36-ace57e1b7a67",
 					"Type":	"SimpleHorizontal",
 					"Skip":	false,
-					"TopY":	200,
+					"TopY":	210,
 					"TopBaseHeight":	"Base",
-					"BottomY":	-11,
+					"BottomY":	-1,
 					"BottomBaseHeight":	"Base",
 					"Material":	{
 						"$NodeId":	"FieldFunction.MaterialProvider-9602350b-f605-4b98-8bf2-234c654e7317",
@@ -1170,18 +1170,18 @@
 											"$NodeId":	"Normalizer.Density-5602efe1-1215-4513-b8e4-7776d77d9b28",
 											"Type":	"Normalizer",
 											"Skip":	false,
-											"FromMin":	-1,
-											"FromMax":	1,
-											"ToMin":	-10,
-											"ToMax":	10,
+											"FromMin":	-1.0,
+											"FromMax":	1.0,
+											"ToMin":	-10.0,
+											"ToMax":	10.0,
 											"Inputs":	[{
 													"$NodeId":	"SimplexNoise2D.Density-7c820ccf-05bc-4e20-b038-8cf384e7d313",
 													"Type":	"SimplexNoise2D",
 													"Skip":	false,
-													"Lacunarity":	2,
+													"Lacunarity":	2.0,
 													"Persistence":	0.5,
 													"Octaves":	2,
-													"Scale":	20
+													"Scale":	20.0
 												}]
 										}, {
 											"$NodeId":	"Imported.Density-b117d910-1a7a-496d-a49d-a90c723f5ffe",
@@ -1193,8 +1193,8 @@
 						},
 						"Delimiters":	[{
 								"$NodeId":	"Delimiter.FieldFunction.MaterialProvider-c3f18f93-81aa-423a-aaf4-cc67c12a0051",
-								"From":	-60,
-								"To":	50,
+								"From":	-60.0,
+								"To":	50.0,
 								"Material":	{
 									"$NodeId":	"SpaceAndDepth.MaterialProvider-3508358b-9aca-4be3-93d8-5a82b9039079",
 									"Type":	"SpaceAndDepth",
@@ -1225,10 +1225,10 @@
 																	"$NodeId":	"SimplexNoise2D.Density-3f8f0a88-d4b3-4a16-8477-e47b1ed40953",
 																	"Type":	"SimplexNoise2D",
 																	"Skip":	false,
-																	"Lacunarity":	2,
+																	"Lacunarity":	2.0,
 																	"Persistence":	0.5,
 																	"Octaves":	2,
-																	"Scale":	50,
+																	"Scale":	50.0,
 																	"Seed":	"A"
 																}, {
 																	"$NodeId":	"Constant.Density-109d0e9d-18b6-4079-a29a-15e4689ace7d",
@@ -1244,10 +1244,10 @@
 																	"$NodeId":	"SimplexNoise2D.Density-24ce78ca-bc81-44fc-a162-efc5469e1b83",
 																	"Type":	"SimplexNoise2D",
 																	"Skip":	false,
-																	"Lacunarity":	2,
+																	"Lacunarity":	2.0,
 																	"Persistence":	0.5,
 																	"Octaves":	1,
-																	"Scale":	5,
+																	"Scale":	5.0,
 																	"Seed":	"B"
 																}, {
 																	"$NodeId":	"Constant.Density-da24bf9f-989a-4f9d-864c-b2e841a9ca0b",
@@ -1260,7 +1260,7 @@
 												"Delimiters":	[{
 														"$NodeId":	"Delimiter.FieldFunction.MaterialProvider-d5f8d186-c676-4042-95c0-9eb1a9307935",
 														"From":	-0.5,
-														"To":	1,
+														"To":	1.0,
 														"Material":	{
 															"$NodeId":	"Constant.MaterialProvider-79669ccd-a4e2-40a1-89d0-c00a257ee1e0",
 															"Type":	"Constant",
@@ -1273,7 +1273,7 @@
 														}
 													}, {
 														"$NodeId":	"Delimiter.FieldFunction.MaterialProvider-e2fd3855-62be-4f81-87bf-bcc206db8e61",
-														"From":	-1,
+														"From":	-1.0,
 														"To":	-0.5,
 														"Material":	{
 															"$NodeId":	"Constant.MaterialProvider-43e28db8-73a4-4e85-9c0e-dd3c5fc2ee0b",
@@ -1305,8 +1305,8 @@
 								}
 							}, {
 								"$NodeId":	"Delimiter.FieldFunction.MaterialProvider-ce2591b0-d72e-4139-84af-9b71f23335ea",
-								"From":	50,
-								"To":	55,
+								"From":	50.0,
+								"To":	55.0,
 								"Material":	{
 									"$NodeId":	"SpaceAndDepth.MaterialProvider-eccf8d73-d489-49d7-8f83-9316ec5820dc",
 									"Type":	"SpaceAndDepth",
@@ -1339,9 +1339,9 @@
 					"$NodeId":	"SimpleHorizontal.MaterialProvider-2da27732-a597-40da-a5ea-86fd51250e66",
 					"Type":	"SimpleHorizontal",
 					"Skip":	false,
-					"TopY":	180,
+					"TopY":	190,
 					"TopBaseHeight":	"Base",
-					"BottomY":	-100,
+					"BottomY":	-90,
 					"BottomBaseHeight":	"Base",
 					"Material":	{
 						"$NodeId":	"FieldFunction.MaterialProvider-d513f73b-bbba-43f1-a2e4-3927db3b1edd",
@@ -1355,43 +1355,43 @@
 									"$NodeId":	"Normalizer.Density-fa3ca60f-f12d-4b6d-943e-68a7507a6c82",
 									"Type":	"Normalizer",
 									"Skip":	false,
-									"FromMin":	-1,
-									"FromMax":	1,
-									"ToMin":	-1,
-									"ToMax":	1,
+									"FromMin":	-1.0,
+									"FromMax":	1.0,
+									"ToMin":	-1.0,
+									"ToMax":	1.0,
 									"Inputs":	[{
 											"$NodeId":	"SimplexNoise3D.Density-2f9cbf1d-98df-4894-8803-1204508d7d9f",
 											"Type":	"SimplexNoise3D",
 											"Skip":	false,
-											"Lacunarity":	2,
+											"Lacunarity":	2.0,
 											"Persistence":	0.5,
 											"Octaves":	2,
-											"ScaleXZ":	200,
-											"ScaleY":	30
+											"ScaleXZ":	200.0,
+											"ScaleY":	30.0
 										}]
 								}, {
 									"$NodeId":	"Normalizer.Density-037fb5b1-5f4d-4268-af2e-74a57db2d119",
 									"Type":	"Normalizer",
 									"Skip":	false,
-									"FromMin":	-1,
-									"FromMax":	1,
+									"FromMin":	-1.0,
+									"FromMax":	1.0,
 									"ToMin":	-0.2,
 									"ToMax":	0.2,
 									"Inputs":	[{
 											"$NodeId":	"SimplexNoise3D.Density-2b726a34-270c-4ca2-bfa6-be92a75a36bc",
 											"Type":	"SimplexNoise3D",
 											"Skip":	false,
-											"Lacunarity":	2,
+											"Lacunarity":	2.0,
 											"Persistence":	0.5,
 											"Octaves":	1,
-											"ScaleXZ":	5,
-											"ScaleY":	3
+											"ScaleXZ":	5.0,
+											"ScaleY":	3.0
 										}]
 								}]
 						},
 						"Delimiters":	[{
 								"$NodeId":	"Delimiter.FieldFunction.MaterialProvider-9151e010-c576-45da-89d8-94875ae1a22b",
-								"From":	-1,
+								"From":	-1.0,
 								"To":	-0.4,
 								"Material":	{
 									"$NodeId":	"Constant.MaterialProvider-25a25063-0323-44b7-948c-41249df1540c",
@@ -1420,7 +1420,7 @@
 							}, {
 								"$NodeId":	"Delimiter.FieldFunction.MaterialProvider-03de0c23-49b5-4044-861b-ecdedb17c842",
 								"From":	0.1,
-								"To":	1,
+								"To":	1.0,
 								"Material":	{
 									"$NodeId":	"Constant.MaterialProvider-c3309244-25f8-4a81-8c52-90c669e5e709",
 									"Type":	"Constant",
@@ -1452,9 +1452,9 @@
 					"$NodeId":	"SimpleHorizontal.MaterialProvider-9d1414a0-5393-4809-841f-d8a946b8dd81",
 					"Type":	"SimpleHorizontal",
 					"Skip":	false,
-					"TopY":	-10,
+					"TopY":	0,
 					"TopBaseHeight":	"Base",
-					"BottomY":	-100,
+					"BottomY":	-90,
 					"BottomBaseHeight":	"Base",
 					"Material":	{
 						"$NodeId":	"Constant.MaterialProvider-e8a30965-8050-487e-bb51-91c4c32d5253",
@@ -1485,6 +1485,7 @@
 			"$NodeId":	"Runtime-f7a904ea-d63b-4cdb-a86c-9089a60f1f49",
 			"Skip":	false,
 			"Runtime":	2,
+			"ContextPrecision":	"Biome",
 			"PropDistribution":	{
 				"$NodeId":	"Constant.PropDistribution-e3aa9e4e-4a13-4d9f-a9b9-45bae7d17864",
 				"Type":	"Constant",
@@ -1503,18 +1504,18 @@
 								"$NodeId":	"Normalizer.Density-1f63aee8-feaf-4259-858e-07ac3d0eaea7",
 								"Type":	"Normalizer",
 								"Skip":	false,
-								"FromMin":	-1,
-								"FromMax":	1,
-								"ToMin":	0,
+								"FromMin":	-1.0,
+								"FromMax":	1.0,
+								"ToMin":	0.0,
 								"ToMax":	0.05,
 								"Inputs":	[{
 										"$NodeId":	"SimplexNoise2D.Density-ea0ee3e0-5c94-469c-b009-d6d46051e9bd",
 										"Type":	"SimplexNoise2D",
 										"Skip":	false,
-										"Lacunarity":	2,
+										"Lacunarity":	2.0,
 										"Persistence":	0.5,
 										"Octaves":	2,
-										"Scale":	80,
+										"Scale":	80.0,
 										"Seed":	"A"
 									}]
 							}, {
@@ -1522,9 +1523,9 @@
 								"Type":	"Normalizer",
 								"Skip":	false,
 								"FromMin":	-0.5,
-								"FromMax":	0,
+								"FromMax":	0.0,
 								"ToMin":	-0.05,
-								"ToMax":	0,
+								"ToMax":	0.0,
 								"Inputs":	[{
 										"$NodeId":	"Inverter.Density-e0b919af-9526-4372-a502-fd91c7f1c382",
 										"Type":	"Inverter",
@@ -1570,7 +1571,7 @@
 								},
 								"Range":	{
 									"$NodeId":	"Decimal.Range-7f41c4ab-90c8-4e71-bbc4-d35dc1451afc",
-									"MinInclusive":	-1,
+									"MinInclusive":	-1.0,
 									"MaxExclusive":	-0.7
 								}
 							}, {
@@ -1611,7 +1612,7 @@
 								"Range":	{
 									"$NodeId":	"Decimal.Range-968d1a32-8289-4d29-8dc6-b23a94249993",
 									"MinInclusive":	-0.3,
-									"MaxExclusive":	0
+									"MaxExclusive":	0.0
 								}
 							}, {
 								"$NodeId":	"Delimiter.DensitySelector.Prop-b78f8a72-b3d7-41ef-917b-aed18968baaf",
@@ -1630,7 +1631,7 @@
 								},
 								"Range":	{
 									"$NodeId":	"Decimal.Range-273eb162-0dd6-456c-89a5-f3e0fe2c87b3",
-									"MinInclusive":	0,
+									"MinInclusive":	0.0,
 									"MaxExclusive":	0.3
 								}
 							}, {
@@ -1671,17 +1672,17 @@
 								"Range":	{
 									"$NodeId":	"Decimal.Range-9003a9d7-1130-4853-b039-7b39b0da91bf",
 									"MinInclusive":	0.7,
-									"MaxExclusive":	1
+									"MaxExclusive":	1.0
 								}
 							}],
 						"Density":	{
 							"$NodeId":	"SimplexNoise2D.Density-c95cfead-1a34-4438-aad8-e73f06a0f405",
 							"Type":	"SimplexNoise2D",
 							"Skip":	false,
-							"Lacunarity":	2,
+							"Lacunarity":	2.0,
 							"Persistence":	0.5,
 							"Octaves":	1,
-							"Scale":	15,
+							"Scale":	15.0,
 							"Seed":	"A"
 						}
 					},
@@ -1717,17 +1718,17 @@
 						"AscendingOrder":	false,
 						"Range":	{
 							"$NodeId":	"Integer.Range-eb3ec8d8-dd47-4ded-b5ad-a71e928c3b7f",
-							"MinInclusive":	90,
-							"MaxExclusive":	260
+							"MinInclusive":	100,
+							"MaxExclusive":	270
 						}
 					}
 				}
-			},
-			"ContextPrecision":	"Biome"
+			}
 		}, {
 			"$NodeId":	"Runtime-62e473d2-e262-4d95-8967-006c689adb64",
 			"Skip":	false,
 			"Runtime":	0,
+			"ContextPrecision":	"Biome",
 			"PropDistribution":	{
 				"$NodeId":	"Constant.PropDistribution-7bb342a1-a2d0-4bc8-957e-696f98d4c63b",
 				"Type":	"Constant",
@@ -1739,16 +1740,16 @@
 					"FieldFunction":	{
 						"$NodeId":	"Sum.Density-3e351b1d-8f77-4204-b506-aafa19652321",
 						"Type":	"Sum",
-						"ExportAs":	"IceOnWaterDens",
+						"ExportAs":	"IceOnWaterDensGlacier",
 						"Skip":	false,
 						"Inputs":	[{
 								"$NodeId":	"Normalizer.Density-167f3fdd-a374-41fc-97db-cfa06197b886",
 								"Type":	"Normalizer",
 								"Skip":	false,
 								"FromMin":	-0.2,
-								"FromMax":	0,
-								"ToMin":	0,
-								"ToMax":	1,
+								"FromMax":	0.0,
+								"ToMin":	0.0,
+								"ToMax":	1.0,
 								"Inputs":	[{
 										"$NodeId":	"Inverter.Density-f1987ae5-49aa-41c4-be45-df1ea58308d5",
 										"Type":	"Inverter",
@@ -1764,10 +1765,10 @@
 								"$NodeId":	"Normalizer.Density-8ccdb0c3-c909-4ce1-873a-97f01fdeef61",
 								"Type":	"Normalizer",
 								"Skip":	false,
-								"FromMin":	-1,
-								"FromMax":	1,
+								"FromMin":	-1.0,
+								"FromMax":	1.0,
 								"ToMin":	-1.5,
-								"ToMax":	0,
+								"ToMax":	0.0,
 								"Inputs":	[{
 										"$NodeId":	"Imported.Density-353bb25a-88e2-4288-8d2e-08f734372293",
 										"Type":	"Imported",
@@ -1778,16 +1779,16 @@
 								"$NodeId":	"Normalizer.Density-08777e05-55a7-4c9d-89a2-cb49cff10ea4",
 								"Type":	"Normalizer",
 								"Skip":	false,
-								"FromMin":	-1,
-								"FromMax":	0,
+								"FromMin":	-1.0,
+								"FromMax":	0.0,
 								"ToMin":	-0.2,
 								"ToMax":	0.2,
 								"Inputs":	[{
 										"$NodeId":	"CellNoise2D.Density-855e2f8a-f93e-4e01-8ed3-b46b9a30b91b",
 										"Type":	"CellNoise2D",
 										"Skip":	false,
-										"ScaleX":	20,
-										"ScaleZ":	20,
+										"ScaleX":	20.0,
+										"ScaleZ":	20.0,
 										"Jitter":	0.5,
 										"CellType":	"Distance2Div",
 										"Octaves":	1,
@@ -1797,16 +1798,16 @@
 								"$NodeId":	"Normalizer.Density-c9369239-6f55-453f-bc71-a3d354d46506",
 								"Type":	"Normalizer",
 								"Skip":	false,
-								"FromMin":	-1,
-								"FromMax":	0,
+								"FromMin":	-1.0,
+								"FromMax":	0.0,
 								"ToMin":	-0.8,
 								"ToMax":	0.8,
 								"Inputs":	[{
 										"$NodeId":	"CellNoise2D.Density-f37d9e09-4909-4176-8802-66fb912317ad",
 										"Type":	"CellNoise2D",
 										"Skip":	false,
-										"ScaleX":	50,
-										"ScaleZ":	50,
+										"ScaleX":	50.0,
+										"ScaleZ":	50.0,
 										"Jitter":	0.6,
 										"CellType":	"Distance2Div",
 										"Octaves":	1,
@@ -1816,8 +1817,8 @@
 					},
 					"Delimiters":	[{
 							"$NodeId":	"Delimiter.Positions-2c3488cf-0fd9-4ab7-b992-22fbc45e2750",
-							"Min":	-2,
-							"Max":	0
+							"Min":	-2.0,
+							"Max":	0.0
 						}],
 					"Positions":	{
 						"$NodeId":	"SquareGrid2d.Positions-6b097757-7852-4c49-a719-688ce4d96fec",
@@ -1857,7 +1858,7 @@
 								},
 								"Range":	{
 									"$NodeId":	"Decimal.Range-df6470ee-7007-4b69-9fa6-3128fd530684",
-									"MinInclusive":	-2,
+									"MinInclusive":	-2.0,
 									"MaxExclusive":	-0.1
 								}
 							}, {
@@ -1884,14 +1885,14 @@
 								"Range":	{
 									"$NodeId":	"Decimal.Range-6a2a5841-b29f-41f3-b58c-e918dc0ccd4e",
 									"MinInclusive":	-0.1,
-									"MaxExclusive":	0
+									"MaxExclusive":	0.0
 								}
 							}],
 						"Density":	{
 							"$NodeId":	"Imported.Density-9e2d9e7d-49ff-4dfd-8dab-fa4c55b39555",
 							"Type":	"Imported",
 							"Skip":	false,
-							"Name":	"IceOnWaterDens"
+							"Name":	"IceOnWaterDensGlacier"
 						}
 					},
 					"Pattern":	{
@@ -1936,17 +1937,17 @@
 						"AscendingOrder":	true,
 						"Range":	{
 							"$NodeId":	"Integer.Range-05174dc3-0368-4205-86fb-a869cfd61847",
-							"MinInclusive":	89,
-							"MaxExclusive":	91
+							"MinInclusive":	99,
+							"MaxExclusive":	101
 						}
 					}
 				}
-			},
-			"ContextPrecision":	"Biome"
+			}
 		}, {
 			"$NodeId":	"Runtime-5bdce241-d57c-4573-8ac1-cdddd402cc38",
 			"Skip":	false,
 			"Runtime":	0,
+			"ContextPrecision":	"Biome",
 			"PropDistribution":	{
 				"$NodeId":	"Constant.PropDistribution-2c384e43-fd15-4277-ab48-2360ff0f513d",
 				"Type":	"Constant",
@@ -1959,10 +1960,10 @@
 						"$NodeId":	"Normalizer.Density-a8efe1c6-8c14-408b-82b0-4c59ac2872fd",
 						"Type":	"Normalizer",
 						"Skip":	false,
-						"FromMin":	0,
+						"FromMin":	0.0,
 						"FromMax":	0.4,
-						"ToMin":	0,
-						"ToMax":	1,
+						"ToMin":	0.0,
+						"ToMax":	1.0,
 						"Inputs":	[{
 								"$NodeId":	"Imported.Density-59cf4de4-3c21-4993-8cde-6fd8b54d22a4",
 								"Type":	"Imported",
@@ -1979,18 +1980,18 @@
 							"$NodeId":	"Normalizer.Density-48b6194c-c9ff-47ac-a3e6-b74f8222d18d",
 							"Type":	"Normalizer",
 							"Skip":	false,
-							"FromMin":	-1,
-							"FromMax":	1,
-							"ToMin":	0,
-							"ToMax":	1,
+							"FromMin":	-1.0,
+							"FromMax":	1.0,
+							"ToMin":	0.0,
+							"ToMax":	1.0,
 							"Inputs":	[{
 									"$NodeId":	"SimplexNoise2D.Density-cc206c8f-2810-4004-82e2-a10eb2458697",
 									"Type":	"SimplexNoise2D",
 									"Skip":	false,
-									"Lacunarity":	2,
+									"Lacunarity":	2.0,
 									"Persistence":	0.5,
 									"Octaves":	1,
-									"Scale":	150
+									"Scale":	150.0
 								}]
 						},
 						"Positions":	{
@@ -1999,9 +2000,9 @@
 							"Skip":	false,
 							"Scale":	{
 								"$NodeId":	"Decimal.Vector3d-1a95f756-7dd9-4f14-af75-da6fbca5458f",
-								"X":	10,
-								"Y":	10,
-								"Z":	10
+								"X":	10.0,
+								"Y":	10.0,
+								"Z":	10.0
 							},
 							"Positions":	{
 								"$NodeId":	"Jitter2d.Positions-00b9f631-3fd7-4a27-9743-287ff00d3989",
@@ -2090,17 +2091,17 @@
 						"AscendingOrder":	false,
 						"Range":	{
 							"$NodeId":	"Integer.Range-26470669-4ec2-433f-81c6-e794f83f364b",
-							"MinInclusive":	90,
-							"MaxExclusive":	200
+							"MinInclusive":	100,
+							"MaxExclusive":	210
 						}
 					}
 				}
-			},
-			"ContextPrecision":	"Biome"
+			}
 		}, {
 			"$NodeId":	"Runtime-6318795f-43f3-45d7-8cf0-07a92dc2c5f4",
 			"Skip":	false,
 			"Runtime":	2,
+			"ContextPrecision":	"Biome",
 			"PropDistribution":	{
 				"$NodeId":	"Constant.PropDistribution-e939638f-fc61-4e46-91f6-64ce3e9274f9",
 				"Type":	"Constant",
@@ -2119,26 +2120,26 @@
 								"$NodeId":	"Normalizer.Density-6c46d4d2-a41e-4fb8-a45a-99fa327f00f8",
 								"Type":	"Normalizer",
 								"Skip":	false,
-								"FromMin":	-1,
-								"FromMax":	1,
+								"FromMin":	-1.0,
+								"FromMax":	1.0,
 								"ToMin":	0.3,
 								"ToMax":	0.7,
 								"Inputs":	[{
 										"$NodeId":	"SimplexNoise2D.Density-ef3355e0-57cf-4932-9f1f-22cbd34e10bc",
 										"Type":	"SimplexNoise2D",
 										"Skip":	false,
-										"Lacunarity":	2,
+										"Lacunarity":	2.0,
 										"Persistence":	0.5,
 										"Octaves":	2,
-										"Scale":	80,
+										"Scale":	80.0,
 										"Seed":	"A"
 									}]
 							}, {
 								"$NodeId":	"Normalizer.Density-ebb2e519-0753-4e37-8cb8-1d209529b2b0",
 								"Type":	"Normalizer",
 								"Skip":	false,
-								"FromMin":	-1,
-								"FromMax":	1,
+								"FromMin":	-1.0,
+								"FromMax":	1.0,
 								"ToMin":	-0.6,
 								"ToMax":	-0.1,
 								"Inputs":	[{
@@ -2186,7 +2187,7 @@
 								},
 								"Range":	{
 									"$NodeId":	"Decimal.Range-775e96ab-5de7-4beb-b100-f263601d1685",
-									"MinInclusive":	-1,
+									"MinInclusive":	-1.0,
 									"MaxExclusive":	-0.7
 								}
 							}, {
@@ -2227,7 +2228,7 @@
 								"Range":	{
 									"$NodeId":	"Decimal.Range-9be73a54-2dac-4fb0-9554-78256013170e",
 									"MinInclusive":	-0.5,
-									"MaxExclusive":	0
+									"MaxExclusive":	0.0
 								}
 							}, {
 								"$NodeId":	"Delimiter.DensitySelector.Prop-7e04b0a2-e37d-40eb-a764-357bc78dce1f",
@@ -2246,7 +2247,7 @@
 								},
 								"Range":	{
 									"$NodeId":	"Decimal.Range-4ae68d77-6f1b-4a8a-9083-6cc844541e42",
-									"MinInclusive":	0,
+									"MinInclusive":	0.0,
 									"MaxExclusive":	0.3
 								}
 							}, {
@@ -2287,17 +2288,17 @@
 								"Range":	{
 									"$NodeId":	"Decimal.Range-3d4a7e71-5668-4bef-8659-e7477bf11a7c",
 									"MinInclusive":	0.7,
-									"MaxExclusive":	1
+									"MaxExclusive":	1.0
 								}
 							}],
 						"Density":	{
 							"$NodeId":	"SimplexNoise2D.Density-d486dbb3-6965-4e23-b969-8e12515dc1f7",
 							"Type":	"SimplexNoise2D",
 							"Skip":	false,
-							"Lacunarity":	2,
+							"Lacunarity":	2.0,
 							"Persistence":	0.5,
 							"Octaves":	1,
-							"Scale":	15,
+							"Scale":	15.0,
 							"Seed":	"A"
 						}
 					},
@@ -2341,17 +2342,17 @@
 						"AscendingOrder":	false,
 						"Range":	{
 							"$NodeId":	"Integer.Range-545c2a51-1923-4739-8260-9bda22f3a4ab",
-							"MinInclusive":	90,
-							"MaxExclusive":	200
+							"MinInclusive":	100,
+							"MaxExclusive":	210
 						}
 					}
 				}
-			},
-			"ContextPrecision":	"Biome"
+			}
 		}, {
 			"$NodeId":	"Runtime-7df42a71-b5aa-4a0b-9a1c-c804ffcdea3b",
 			"Skip":	false,
 			"Runtime":	0,
+			"ContextPrecision":	"Biome",
 			"PropDistribution":	{
 				"$NodeId":	"Constant.PropDistribution-09965435-d21d-4feb-a872-670f64566c43",
 				"Type":	"Constant",
@@ -2365,9 +2366,9 @@
 						"Type":	"Normalizer",
 						"Skip":	false,
 						"FromMin":	-0.5,
-						"FromMax":	0,
-						"ToMin":	0,
-						"ToMax":	1,
+						"FromMax":	0.0,
+						"ToMin":	0.0,
+						"ToMax":	1.0,
 						"Inputs":	[{
 								"$NodeId":	"Inverter.Density-e5f03524-663b-4702-9ee6-893a1e593809",
 								"Type":	"Inverter",
@@ -2388,10 +2389,10 @@
 							"$NodeId":	"Normalizer.Density-6b341cb1-e116-4332-a01e-9e5fc65306ad",
 							"Type":	"Normalizer",
 							"Skip":	false,
-							"FromMin":	0,
+							"FromMin":	0.0,
 							"FromMax":	0.4,
-							"ToMin":	0,
-							"ToMax":	1,
+							"ToMin":	0.0,
+							"ToMax":	1.0,
 							"Inputs":	[{
 									"$NodeId":	"Inverter.Density-2c7382be-f917-4823-a844-012ca03744c3",
 									"Type":	"Inverter",
@@ -2486,17 +2487,17 @@
 						"AscendingOrder":	false,
 						"Range":	{
 							"$NodeId":	"Integer.Range-b8b7749c-bcbc-4f40-994e-9e27755bbfb6",
-							"MinInclusive":	90,
-							"MaxExclusive":	200
+							"MinInclusive":	100,
+							"MaxExclusive":	210
 						}
 					}
 				}
-			},
-			"ContextPrecision":	"Biome"
+			}
 		}, {
 			"$NodeId":	"Runtime-aff50191-8e8c-47ed-bf2d-4798ddbdcc60",
 			"Skip":	false,
 			"Runtime":	0,
+			"ContextPrecision":	"Biome",
 			"PropDistribution":	{
 				"$NodeId":	"Constant.PropDistribution-6e24a26e-8d67-402a-b216-780f87c779df",
 				"Type":	"Constant",
@@ -2508,9 +2509,9 @@
 					"Skip":	false,
 					"Scale":	{
 						"$NodeId":	"Decimal.Vector3d-56e9a0ee-6a47-4f17-8bb6-bfed05841740",
-						"X":	70,
-						"Y":	1,
-						"Z":	70
+						"X":	70.0,
+						"Y":	1.0,
+						"Z":	70.0
 					},
 					"Positions":	{
 						"$NodeId":	"Jitter2d.Positions-0823a75e-a824-4f5b-9ad0-4e733d63223d",
@@ -2616,7 +2617,7 @@
 							"Range":	{
 								"$NodeId":	"Decimal.Range-77297765-ea8f-4fbc-9f3f-fe4386b8cabc",
 								"MinInclusive":	0.2,
-								"MaxExclusive":	1
+								"MaxExclusive":	1.0
 							}
 						}, {
 							"$NodeId":	"Delimiter.DensitySelector.Prop-a4c197bd-885f-42de-8daa-0c2e954edb2b",
@@ -2694,14 +2695,14 @@
 									"AscendingOrder":	false,
 									"Range":	{
 										"$NodeId":	"Integer.Range-56044337-29a6-4ace-9f85-78d738ab47f1",
-										"MinInclusive":	90,
-										"MaxExclusive":	160
+										"MinInclusive":	100,
+										"MaxExclusive":	170
 									}
 								}
 							},
 							"Range":	{
 								"$NodeId":	"Decimal.Range-0adb6036-aacc-4c9e-b832-61e6a42bdadf",
-								"MinInclusive":	-1,
+								"MinInclusive":	-1.0,
 								"MaxExclusive":	-0.2
 							}
 						}],
@@ -2712,12 +2713,12 @@
 						"Name":	"Snow_White"
 					}
 				}
-			},
-			"ContextPrecision":	"Biome"
+			}
 		}, {
 			"$NodeId":	"Runtime-d2fe5fe2-aa6d-4959-8f72-cd18d1c85730",
 			"Skip":	false,
 			"Runtime":	1,
+			"ContextPrecision":	"Biome",
 			"PropDistribution":	{
 				"$NodeId":	"Constant.PropDistribution-a56c8485-c624-4fa3-b845-9f49023872c5",
 				"Type":	"Constant",
@@ -2730,10 +2731,10 @@
 						"$NodeId":	"Normalizer.Density-f90d24fb-df24-4dee-933e-393ca50756b0",
 						"Type":	"Normalizer",
 						"Skip":	false,
-						"FromMin":	0,
+						"FromMin":	0.0,
 						"FromMax":	0.5,
-						"ToMin":	0,
-						"ToMax":	1,
+						"ToMin":	0.0,
+						"ToMax":	1.0,
 						"Inputs":	[{
 								"$NodeId":	"Inverter.Density-b97e16ee-6abb-47b8-b9be-9d46e5cdeb7d",
 								"Type":	"Inverter",
@@ -2831,17 +2832,17 @@
 						"AscendingOrder":	false,
 						"Range":	{
 							"$NodeId":	"Integer.Range-b6c0dd4e-5751-4a7b-8388-af7544f410e1",
-							"MinInclusive":	90,
-							"MaxExclusive":	200
+							"MinInclusive":	100,
+							"MaxExclusive":	210
 						}
 					}
 				}
-			},
-			"ContextPrecision":	"Biome"
+			}
 		}, {
 			"$NodeId":	"Runtime-cd3ee86b-1b7d-4e20-8abb-97bf3775c31f",
 			"Skip":	false,
 			"Runtime":	1,
+			"ContextPrecision":	"Biome",
 			"PropDistribution":	{
 				"$NodeId":	"Constant.PropDistribution-9094caaf-e5c1-4154-bd78-c9d8fae5c544",
 				"Type":	"Constant",
@@ -2859,23 +2860,23 @@
 								"$NodeId":	"Normalizer.Density-9810a4d4-2f35-4960-9825-d78220b4a36e",
 								"Type":	"Normalizer",
 								"Skip":	false,
-								"FromMin":	-1,
-								"FromMax":	1,
+								"FromMin":	-1.0,
+								"FromMax":	1.0,
 								"ToMin":	-0.2,
-								"ToMax":	0,
+								"ToMax":	0.0,
 								"Inputs":	[{
 										"$NodeId":	"Pow.Density-eae0f719-f569-44de-ab1b-a40eddab076a",
 										"Type":	"Pow",
 										"Skip":	false,
-										"Exponent":	3,
+										"Exponent":	3.0,
 										"Inputs":	[{
 												"$NodeId":	"SimplexNoise2D.Density-004b39f5-51e4-4c6d-8d99-fd94c3ae5fd6",
 												"Type":	"SimplexNoise2D",
 												"Skip":	false,
-												"Lacunarity":	2,
+												"Lacunarity":	2.0,
 												"Persistence":	0.5,
 												"Octaves":	1,
-												"Scale":	30,
+												"Scale":	30.0,
 												"Seed":	"B"
 											}]
 									}]
@@ -2883,25 +2884,25 @@
 								"$NodeId":	"Normalizer.Density-5f848d3e-4ae5-49c1-9f27-7e0cf184f194",
 								"Type":	"Normalizer",
 								"Skip":	false,
-								"FromMin":	-1,
-								"FromMax":	1,
+								"FromMin":	-1.0,
+								"FromMax":	1.0,
 								"ToMin":	-0.15,
-								"ToMax":	0,
+								"ToMax":	0.0,
 								"Inputs":	[{
 										"$NodeId":	"SimplexNoise2D.Density-1327c6b9-4139-44e5-8f6d-db3c48431c7e",
 										"Type":	"SimplexNoise2D",
 										"Skip":	false,
-										"Lacunarity":	2,
+										"Lacunarity":	2.0,
 										"Persistence":	0.5,
 										"Octaves":	2,
-										"Scale":	150,
+										"Scale":	150.0,
 										"Seed":	"C"
 									}]
 							}, {
 								"$NodeId":	"Clamp.Density-3d1b5df9-9511-4caa-a23d-da304e203ea6",
 								"Type":	"Clamp",
 								"Skip":	false,
-								"WallA":	0,
+								"WallA":	0.0,
 								"WallB":	0.2,
 								"Inputs":	[{
 										"$NodeId":	"Imported.Density-42f91e37-97ab-4aac-9b51-4b0b5acbe59f",
@@ -2917,9 +2918,9 @@
 						"Skip":	false,
 						"Scale":	{
 							"$NodeId":	"Decimal.Vector3d-1a7fda8e-a4c4-472f-b69f-ae0e994a29c3",
-							"X":	4,
-							"Y":	1,
-							"Z":	4
+							"X":	4.0,
+							"Y":	1.0,
+							"Z":	4.0
 						},
 						"Positions":	{
 							"$NodeId":	"Jitter2d.Positions-e30cddc0-97d1-41ac-853b-c5dbb2b335f3",
@@ -2960,7 +2961,7 @@
 								},
 								"Range":	{
 									"$NodeId":	"Decimal.Range-6ff67661-19c7-4a0e-9c73-44157bcbfd85",
-									"MinInclusive":	-1,
+									"MinInclusive":	-1.0,
 									"MaxExclusive":	-0.5
 								}
 							}, {
@@ -3086,17 +3087,17 @@
 								"Range":	{
 									"$NodeId":	"Decimal.Range-fa500b18-8243-48ba-81b2-26269d4f3468",
 									"MinInclusive":	0.6,
-									"MaxExclusive":	1
+									"MaxExclusive":	1.0
 								}
 							}],
 						"Density":	{
 							"$NodeId":	"SimplexNoise2D.Density-5a212a8d-f080-4768-a218-3b4aad942878",
 							"Type":	"SimplexNoise2D",
 							"Skip":	false,
-							"Lacunarity":	2,
+							"Lacunarity":	2.0,
 							"Persistence":	0.5,
 							"Octaves":	2,
-							"Scale":	30,
+							"Scale":	30.0,
 							"Seed":	"21356"
 						}
 					},
@@ -3145,17 +3146,17 @@
 						"AscendingOrder":	false,
 						"Range":	{
 							"$NodeId":	"Integer.Range-3193e0ad-1f8b-40f6-af6b-98bc71052ba7",
-							"MinInclusive":	90,
-							"MaxExclusive":	170
+							"MinInclusive":	100,
+							"MaxExclusive":	180
 						}
 					}
 				}
-			},
-			"ContextPrecision":	"Biome"
+			}
 		}, {
 			"$NodeId":	"Runtime-29472e0c-0b3a-4a9f-a35e-2ae2b9d87139",
 			"Skip":	false,
 			"Runtime":	2,
+			"ContextPrecision":	"Biome",
 			"PropDistribution":	{
 				"$NodeId":	"Constant.PropDistribution-f94a431a-6f57-4a0d-aa23-e55c92a69868",
 				"Type":	"Constant",
@@ -3172,15 +3173,15 @@
 								"$NodeId":	"Normalizer.Density-1ef99392-1ad1-447c-b88c-0de5a052f01d",
 								"Type":	"Normalizer",
 								"Skip":	false,
-								"FromMin":	-1,
-								"FromMax":	1,
-								"ToMin":	-1,
-								"ToMax":	1,
+								"FromMin":	-1.0,
+								"FromMax":	1.0,
+								"ToMin":	-1.0,
+								"ToMax":	1.0,
 								"Inputs":	[{
 										"$NodeId":	"YOverride.Density-f74e6a02-cd2f-47a7-95df-cee41af76934",
 										"Type":	"YOverride",
 										"Skip":	false,
-										"Value":	0,
+										"Value":	0.0,
 										"Inputs":	[{
 												"$NodeId":	"Cache.Density-d21f70af-c051-467a-b4cc-52ab03d7427b",
 												"Type":	"Cache",
@@ -3190,7 +3191,7 @@
 														"$NodeId":	"PositionsCellNoise.Density-542c61b8-7809-4ecc-afcf-064c7f1bc392",
 														"Type":	"PositionsCellNoise",
 														"Skip":	false,
-														"MaxDistance":	15,
+														"MaxDistance":	15.0,
 														"Positions":	{
 															"$NodeId":	"Imported.Positions-d734cb53-abe0-4461-8aa6-2b8d00fca45c",
 															"Type":	"Imported",
@@ -3205,12 +3206,12 @@
 																"Type":	"Manual",
 																"Points":	[{
 																		"$NodeId":	"CurvePoint.Curve-f68cea7a-c025-4e42-b862-343ad20de932",
-																		"In":	0,
+																		"In":	0.0,
 																		"Out":	0.01
 																	}, {
 																		"$NodeId":	"CurvePoint.Curve-3b3ca5d0-b13b-41e2-9090-aa2c7303623c",
-																		"In":	8,
-																		"Out":	0
+																		"In":	8.0,
+																		"Out":	0.0
 																	}]
 															}
 														},
@@ -3302,17 +3303,17 @@
 						"AscendingOrder":	true,
 						"Range":	{
 							"$NodeId":	"Integer.Range-34ab3300-4651-4dab-b47f-17debbe283a6",
-							"MinInclusive":	90,
-							"MaxExclusive":	180
+							"MinInclusive":	100,
+							"MaxExclusive":	190
 						}
 					}
 				}
-			},
-			"ContextPrecision":	"Biome"
+			}
 		}, {
 			"$NodeId":	"Runtime-cd965a13-4c17-4cfb-91bf-1ea581b7f36f",
 			"Skip":	false,
 			"Runtime":	1,
+			"ContextPrecision":	"Biome",
 			"PropDistribution":	{
 				"$NodeId":	"Constant.PropDistribution-8e179d13-858d-4c78-aaed-b7cffebecdd4",
 				"Type":	"Constant",
@@ -3327,18 +3328,18 @@
 						"$NodeId":	"Normalizer.Density-77d169a9-b1be-4b8c-bb9f-684235aa36f8",
 						"Type":	"Normalizer",
 						"Skip":	false,
-						"FromMin":	-1,
-						"FromMax":	1,
+						"FromMin":	-1.0,
+						"FromMax":	1.0,
 						"ToMin":	-0.01,
 						"ToMax":	0.03,
 						"Inputs":	[{
 								"$NodeId":	"SimplexNoise2D.Density-bab2925f-00d5-45c9-bee5-b5d25c15f03b",
 								"Type":	"SimplexNoise2D",
 								"Skip":	false,
-								"Lacunarity":	2,
+								"Lacunarity":	2.0,
 								"Persistence":	0.5,
 								"Octaves":	2,
-								"Scale":	30,
+								"Scale":	30.0,
 								"Seed":	"A"
 							}]
 					},
@@ -3476,13 +3477,12 @@
 						"AscendingOrder":	false,
 						"Range":	{
 							"$NodeId":	"Integer.Range-1130e182-73c8-42ac-82e5-2ed23c77d735",
-							"MinInclusive":	90,
-							"MaxExclusive":	290
+							"MinInclusive":	100,
+							"MaxExclusive":	300
 						}
 					}
 				}
-			},
-			"ContextPrecision":	"Biome"
+			}
 		}],
 	"EnvironmentProvider":	{
 		"$NodeId":	"Constant.EnvironmentProvider-9d435dc0-ffa2-4de6-886d-c6e8b54f3b44",
@@ -3506,10 +3506,10 @@
 							"$NodeId":	"SimplexNoise2D.Density-a39bfe4f-6b3c-46ea-8c73-12c42befe49f",
 							"Type":	"SimplexNoise2D",
 							"Skip":	false,
-							"Lacunarity":	2,
+							"Lacunarity":	2.0,
 							"Persistence":	0.5,
 							"Octaves":	1,
-							"Scale":	80
+							"Scale":	80.0
 						}, {
 							"$NodeId":	"Constant.Density-5802817e-9497-499d-b903-771185de39ab",
 							"Type":	"Constant",
@@ -3524,10 +3524,10 @@
 							"$NodeId":	"SimplexNoise2D.Density-2435bf01-d4d3-4668-bbdc-389b956374c2",
 							"Type":	"SimplexNoise2D",
 							"Skip":	false,
-							"Lacunarity":	2,
+							"Lacunarity":	2.0,
 							"Persistence":	0.5,
 							"Octaves":	1,
-							"Scale":	10
+							"Scale":	10.0
 						}, {
 							"$NodeId":	"Constant.Density-29a1ee4b-502f-416c-bfe8-745756fa02e3",
 							"Type":	"Constant",
@@ -3546,8 +3546,8 @@
 				},
 				"Range":	{
 					"$NodeId":	"Decimal.Range-c0d3d5b8-7549-4252-9e2e-152ea519da70",
-					"MinInclusive":	-1,
-					"MaxExclusive":	0
+					"MinInclusive":	-1.0,
+					"MaxExclusive":	0.0
 				}
 			}, {
 				"$NodeId":	"Delimiter.DensityDelimited.TintProvider-18111aeb-05f8-46b8-8be9-877b7688af0f",
@@ -3559,8 +3559,8 @@
 				},
 				"Range":	{
 					"$NodeId":	"Decimal.Range-8d39d644-a760-47ab-9256-beabf7ab9044",
-					"MinInclusive":	0,
-					"MaxExclusive":	1
+					"MinInclusive":	0.0,
+					"MaxExclusive":	1.0
 				}
 			}]
 	},
@@ -3590,20 +3590,20 @@
 			},
 			"MultiMix.Density-98156ca0-27d7-4b78-bece-31f9222650a8":	{
 				"$Position":	{
-					"$x":	2125,
-					"$y":	-12491
+					"$x":	2446,
+					"$y":	-12641
 				}
 			},
 			"Constant.Density-3c6845d5-0afd-4193-9b37-5bca7b89f32a":	{
 				"$Position":	{
-					"$x":	2807,
-					"$y":	-13369
+					"$x":	3128,
+					"$y":	-13519
 				}
 			},
 			"YSampled.Density-2526c9cc-9b4e-47d7-8c50-9b74ddb52212":	{
 				"$Position":	{
-					"$x":	2807,
-					"$y":	-13095
+					"$x":	3128,
+					"$y":	-13245
 				}
 			},
 			"Sum.Density-69e78800-398a-4a19-a50e-6a23c7606a9f":	{
@@ -3722,465 +3722,586 @@
 			},
 			"Exported.Density-b351e245-cfa8-447f-9224-e1feab168cee":	{
 				"$Position":	{
-					"$x":	7403,
-					"$y":	-11648
+					"$x":	6130,
+					"$y":	-11646
 				}
 			},
 			"Cache.Density-a5bb1171-7f3b-4f06-ae0f-1d92b330b643":	{
 				"$Position":	{
-					"$x":	8076,
-					"$y":	-11648
+					"$x":	6803,
+					"$y":	-11646
 				}
 			},
 			"Mix.Density-8bc16836-1a05-4257-ac31-54cab7495647":	{
 				"$Position":	{
-					"$x":	8693,
-					"$y":	-11648
+					"$x":	7420,
+					"$y":	-11646
+				}
+			},
+			"Exported.Density-fb1e804d-17dd-4ae3-8125-73c58e643a65":	{
+				"$Position":	{
+					"$x":	8266,
+					"$y":	-13405
 				}
 			},
 			"Sum.Density-16604bde-0184-4f00-ad71-711002a44d14":	{
 				"$Position":	{
-					"$x":	10349,
-					"$y":	-13407
+					"$x":	9076,
+					"$y":	-13405
 				}
 			},
 			"Sum.Density-78c8f874-4b65-419c-9707-8e4f9106ec7c":	{
 				"$Position":	{
-					"$x":	11012,
-					"$y":	-13910
+					"$x":	9739,
+					"$y":	-13908
 				}
 			},
 			"Mix.Density-6ab51f26-adb4-430c-b4b9-b3f63b46940d":	{
 				"$Position":	{
-					"$x":	11671,
-					"$y":	-15290
+					"$x":	10398,
+					"$y":	-15288
 				}
 			},
 			"Constant.Density-fb56aa58-8412-4d01-a5c3-e6bc8547ffbd":	{
 				"$Position":	{
-					"$x":	12335,
-					"$y":	-15544
+					"$x":	11062,
+					"$y":	-15542
 				}
 			},
 			"Sum.Density-2a52f8eb-e966-4962-8bab-8ff00cd7a543":	{
 				"$Position":	{
-					"$x":	13138,
-					"$y":	-15290
+					"$x":	11865,
+					"$y":	-15288
 				}
 			},
 			"Mix.Density-a55af0ee-28c6-4f4d-be34-743d528ebfd0":	{
 				"$Position":	{
-					"$x":	13812,
-					"$y":	-15610
+					"$x":	12539,
+					"$y":	-15608
 				}
 			},
 			"Constant.Density-c52c992c-00a1-4781-be2f-2ee351342afa":	{
 				"$Position":	{
-					"$x":	14518,
-					"$y":	-15864
+					"$x":	13245,
+					"$y":	-15862
 				}
 			},
 			"Sum.Density-d553a605-5eae-401c-b94b-ea2fcca96a3f":	{
 				"$Position":	{
-					"$x":	14518,
-					"$y":	-15610
+					"$x":	13245,
+					"$y":	-15608
 				}
 			},
 			"Normalizer.Density-e9bd1f49-b54f-43d4-aebf-195acf2c9dd2":	{
 				"$Position":	{
-					"$x":	15135,
-					"$y":	-15610
+					"$x":	13862,
+					"$y":	-15608
 				}
 			},
 			"Pow.Density-790c1e32-463c-42c8-9b28-1e6699030913":	{
 				"$Position":	{
-					"$x":	15752,
-					"$y":	-15609
+					"$x":	14479,
+					"$y":	-15607
 				}
 			},
 			"Inverter.Density-3ca5808a-78ac-46e3-827d-80274b84d242":	{
 				"$Position":	{
-					"$x":	16369,
-					"$y":	-15609
+					"$x":	15096,
+					"$y":	-15607
 				}
 			},
 			"YOverride.Density-ac2b7de7-bfe8-478e-9ae6-82c67e1bbaf2":	{
 				"$Position":	{
-					"$x":	16986,
-					"$y":	-15604
+					"$x":	15713,
+					"$y":	-15602
 				}
 			},
 			"Cache.Density-03423a2a-9433-4826-89af-f4fb45e67bb1":	{
 				"$Position":	{
-					"$x":	17599,
-					"$y":	-15604
+					"$x":	16326,
+					"$y":	-15602
 				}
 			},
 			"Sum.Density-7d211c4d-7642-46c5-98fb-5576825ee169":	{
 				"$Position":	{
-					"$x":	18213,
-					"$y":	-15604
+					"$x":	16940,
+					"$y":	-15602
 				}
 			},
 			"Normalizer.Density-e6f5fc53-1b77-40d1-bd83-12d3cde0306d":	{
 				"$Position":	{
-					"$x":	18817,
-					"$y":	-15604
+					"$x":	17544,
+					"$y":	-15602
 				}
 			},
 			"FastGradientWarp.Density-d7600399-3aa8-4298-af4f-7da609bca49a":	{
 				"$Position":	{
-					"$x":	19431,
-					"$y":	-15604
+					"$x":	18158,
+					"$y":	-15602
 				}
 			},
 			"CellNoise2D.Density-72ccfee6-a546-4c28-a01e-5c907377ece9":	{
 				"$Position":	{
-					"$x":	20144,
-					"$y":	-15604
+					"$x":	18871,
+					"$y":	-15602
 				}
 			},
 			"Normalizer.Density-261a6b57-8634-4f5c-9bf1-33901efcea0a":	{
 				"$Position":	{
-					"$x":	18817,
-					"$y":	-15168
+					"$x":	17544,
+					"$y":	-15166
 				}
 			},
 			"CellNoise2D.Density-68f79861-8d8d-4164-a648-09a679e6d64f":	{
 				"$Position":	{
-					"$x":	19431,
-					"$y":	-15168
+					"$x":	18158,
+					"$y":	-15166
 				}
 			},
 			"Imported.Density-ed316f65-1d89-452c-9188-d2713c89f96c":	{
 				"$Position":	{
-					"$x":	14518,
-					"$y":	-15273
+					"$x":	13245,
+					"$y":	-15271
 				}
 			},
 			"Normalizer.Density-1602076a-2e9f-4bcc-8c1b-5ba533e42af4":	{
 				"$Position":	{
-					"$x":	13812,
-					"$y":	-15026
+					"$x":	12539,
+					"$y":	-15024
 				}
 			},
 			"Clamp.Density-54c4bea4-7272-4c53-8f79-0af2fcfc6827":	{
 				"$Position":	{
-					"$x":	14426,
-					"$y":	-15026
+					"$x":	13153,
+					"$y":	-15024
 				}
 			},
 			"SimplexNoise2D.Density-64455420-fc64-493c-ac58-18d903d97b21":	{
 				"$Position":	{
-					"$x":	15040,
-					"$y":	-15026
+					"$x":	13767,
+					"$y":	-15024
 				}
 			},
 			"Normalizer.Density-325d915a-24a6-4b5c-a808-695bcd4aadd7":	{
 				"$Position":	{
-					"$x":	12335,
-					"$y":	-14810
+					"$x":	11062,
+					"$y":	-14808
 				}
 			},
 			"Imported.Density-9547c22f-22d2-4a62-b9d6-bcbc010923a2":	{
 				"$Position":	{
-					"$x":	12949,
-					"$y":	-14810
+					"$x":	11676,
+					"$y":	-14808
 				}
 			},
 			"Exported.Density-8dd1bfa3-f965-40ed-98b0-d763b4400682":	{
 				"$Position":	{
-					"$x":	11648,
-					"$y":	-13665
+					"$x":	10375,
+					"$y":	-13663
 				}
 			},
 			"Sum.Density-3b54116c-f3fb-4779-a6e5-f3331e2a3e69":	{
 				"$Position":	{
-					"$x":	12325,
-					"$y":	-13665
+					"$x":	11052,
+					"$y":	-13663
 				}
 			},
 			"Normalizer.Density-f7e60dee-c940-410d-9fdb-aae6b48beace":	{
 				"$Position":	{
-					"$x":	13045,
-					"$y":	-13950
+					"$x":	11772,
+					"$y":	-13948
 				}
 			},
 			"SmoothClamp.Density-11757c3c-3f25-4f68-90ef-fb3ac08df6e8":	{
 				"$Position":	{
-					"$x":	13659,
-					"$y":	-13950
+					"$x":	12386,
+					"$y":	-13948
 				}
 			},
 			"Inverter.Density-715cfe60-91bd-46a1-8010-fefbe0ff6674":	{
 				"$Position":	{
-					"$x":	14288,
-					"$y":	-13950
+					"$x":	13015,
+					"$y":	-13948
 				}
 			},
 			"Pow.Density-d68c559e-0089-4d6e-8e36-6ca6e087ef0e":	{
 				"$Position":	{
-					"$x":	14917,
-					"$y":	-13950
+					"$x":	13644,
+					"$y":	-13948
 				}
 			},
 			"Abs.Density-9462aac1-93ea-40d4-828e-c12ee229decd":	{
 				"$Position":	{
-					"$x":	15531,
-					"$y":	-13950
+					"$x":	14258,
+					"$y":	-13948
 				}
 			},
 			"SimplexNoise2D.Density-73e21d0c-84f2-482f-ad6f-c1d1fc75e687":	{
 				"$Position":	{
-					"$x":	16146,
-					"$y":	-13950
+					"$x":	14873,
+					"$y":	-13948
 				}
 			},
 			"Normalizer.Density-182e85f9-9cf9-4d5d-9278-115445088848":	{
 				"$Position":	{
-					"$x":	13006,
-					"$y":	-13379
+					"$x":	11733,
+					"$y":	-13377
 				}
 			},
 			"Abs.Density-cc5a9e35-4045-457f-a9cb-bd6a9c50dd05":	{
 				"$Position":	{
-					"$x":	13629,
-					"$y":	-13379
+					"$x":	12356,
+					"$y":	-13377
 				}
 			},
 			"Sum.Density-a2f623bc-5850-4b9c-a8b8-71c16eaceea9":	{
 				"$Position":	{
-					"$x":	14244,
-					"$y":	-13379
+					"$x":	12971,
+					"$y":	-13377
 				}
 			},
 			"Multiplier.Density-985c07c6-5e93-4e17-a64f-c464735d5770":	{
 				"$Position":	{
-					"$x":	14878,
-					"$y":	-13379
+					"$x":	13605,
+					"$y":	-13377
 				}
 			},
 			"SimplexNoise2D.Density-a4a5923d-2ac1-465c-b8b4-efb17008ba68":	{
 				"$Position":	{
-					"$x":	15512,
-					"$y":	-13379
+					"$x":	14239,
+					"$y":	-13377
 				}
 			},
 			"Constant.Density-b1c37e30-8870-42e0-a95d-c66c47f28264":	{
 				"$Position":	{
-					"$x":	14878,
-					"$y":	-13246
+					"$x":	13605,
+					"$y":	-13244
 				}
 			},
 			"Multiplier.Density-e2e548ad-f17b-4421-a4c3-ba7ceaef195a":	{
 				"$Position":	{
-					"$x":	14887,
-					"$y":	-13036
+					"$x":	13614,
+					"$y":	-13034
 				}
 			},
 			"SimplexNoise2D.Density-634842b8-896b-439d-a61b-73e4f562107b":	{
 				"$Position":	{
-					"$x":	15512,
-					"$y":	-13036
+					"$x":	14239,
+					"$y":	-13034
 				}
 			},
 			"Constant.Density-53b1f4ed-3e22-4d0e-9613-d3edba7f600d":	{
 				"$Position":	{
-					"$x":	14887,
-					"$y":	-12903
+					"$x":	13614,
+					"$y":	-12901
 				}
 			},
 			"Multiplier.Density-b86e6bd4-0d24-490d-83dc-8968ae34ff99":	{
 				"$Position":	{
-					"$x":	14891,
-					"$y":	-12710
+					"$x":	13618,
+					"$y":	-12708
 				}
 			},
 			"SimplexNoise2D.Density-a2a81be5-795b-44b2-a762-fc87c41950f8":	{
 				"$Position":	{
-					"$x":	15516,
-					"$y":	-12710
+					"$x":	14243,
+					"$y":	-12708
 				}
 			},
 			"Constant.Density-a5e1012f-c752-4df2-8e20-4114800bd6f2":	{
 				"$Position":	{
-					"$x":	14891,
-					"$y":	-12577
+					"$x":	13618,
+					"$y":	-12575
 				}
 			},
 			"CurveMapper.Density-0099617d-2213-4e11-bb5e-d0794fdb8cf8":	{
 				"$Position":	{
-					"$x":	11005,
-					"$y":	-12969
+					"$x":	9732,
+					"$y":	-12967
 				}
 			},
 			"Manual.Curve-e69eda0c-48e7-42b2-bc9e-8f2239110176":	{
 				"$Position":	{
-					"$x":	11648,
-					"$y":	-12742
+					"$x":	10375,
+					"$y":	-12740
 				},
 				"$Title":	"Manua Curve"
 			},
 			"CurvePoint.Curve-32b6c9d2-1a79-4c1a-a93c-fb5d059b9528":	{
 				"$Position":	{
-					"$x":	12607,
-					"$y":	-12892
+					"$x":	11334,
+					"$y":	-12890
 				}
 			},
 			"CurvePoint.Curve-466b2ce8-b555-4f88-ba5a-638159d3b5b5":	{
 				"$Position":	{
-					"$x":	12607,
-					"$y":	-12759
+					"$x":	11334,
+					"$y":	-12757
 				}
 			},
 			"CurvePoint.Curve-ae718fd9-c223-4574-8b92-53184ab136e1":	{
 				"$Position":	{
-					"$x":	12607,
-					"$y":	-12643
+					"$x":	11334,
+					"$y":	-12641
 				}
 			},
 			"CurvePoint.Curve-0db095cb-845e-4e28-b653-0744bb5fc822":	{
 				"$Position":	{
-					"$x":	12607,
-					"$y":	-12510
+					"$x":	11334,
+					"$y":	-12508
 				}
 			},
 			"CurvePoint.Curve-83f257db-c42e-4993-b1bb-1b9ed69f492a":	{
 				"$Position":	{
-					"$x":	12607,
-					"$y":	-12377
+					"$x":	11334,
+					"$y":	-12375
 				}
 			},
 			"CurvePoint.Curve-a7ecaa52-481f-490e-aea9-596e4507c08a":	{
 				"$Position":	{
-					"$x":	12607,
-					"$y":	-12244
+					"$x":	11334,
+					"$y":	-12242
 				}
 			},
 			"CurvePoint.Curve-16110946-d5d3-4263-b01a-0988e105efe0":	{
 				"$Position":	{
-					"$x":	12607,
-					"$y":	-12112
+					"$x":	11334,
+					"$y":	-12110
 				}
 			},
 			"CurvePoint.Curve-5f51fcc3-e414-4d1a-8fd4-1784d4190c44":	{
 				"$Position":	{
-					"$x":	12607,
-					"$y":	-11979
+					"$x":	11334,
+					"$y":	-11977
 				}
 			},
 			"CurvePoint.Curve-85b42285-25d6-470d-8f68-eb6f57592ef9":	{
 				"$Position":	{
-					"$x":	12607,
-					"$y":	-11846
+					"$x":	11334,
+					"$y":	-11844
 				}
 			},
 			"CurvePoint.Curve-6d16ef7d-5755-4218-938e-75ee1a497ecb":	{
 				"$Position":	{
-					"$x":	12607,
-					"$y":	-11714
+					"$x":	11334,
+					"$y":	-11712
 				}
 			},
 			"BaseHeight.Density-a3dd2ef2-1de3-491d-99cd-7ca01db321bd":	{
 				"$Position":	{
-					"$x":	11648,
-					"$y":	-12969
+					"$x":	10375,
+					"$y":	-12967
+				}
+			},
+			"YSampled.Density-25618b4f-3a16-4231-a307-f640e392a7cb":	{
+				"$Position":	{
+					"$x":	8348,
+					"$y":	-11157
+				}
+			},
+			"Max.Density-b53665ce-cfa7-47df-b905-059124226d62":	{
+				"$Position":	{
+					"$x":	8966,
+					"$y":	-11157
+				}
+			},
+			"Imported.Density-97374bf9-8246-4fb8-80a2-9a3542d74530":	{
+				"$Position":	{
+					"$x":	9759,
+					"$y":	-11269
+				}
+			},
+			"Sum.Density-2776bb5e-3fe7-49e9-a6f1-ebe6d66d2c22":	{
+				"$Position":	{
+					"$x":	9685,
+					"$y":	-10941
+				}
+			},
+			"Normalizer.Density-ab1b1945-9ab8-42f8-8516-72d866721e0b":	{
+				"$Position":	{
+					"$x":	10446,
+					"$y":	-11375
+				}
+			},
+			"CellNoise2D.Density-59516686-7a5f-449f-93a7-0df9e5af8249":	{
+				"$Position":	{
+					"$x":	11100,
+					"$y":	-11376
+				}
+			},
+			"Imported.Density-6b1ac150-3f2f-4cfd-8917-40d79aafac7f":	{
+				"$Position":	{
+					"$x":	10446,
+					"$y":	-11062
+				}
+			},
+			"CurveMapper.Density-38586c1d-4cf9-4788-b618-19598c45f642":	{
+				"$Position":	{
+					"$x":	10354,
+					"$y":	-10572
+				}
+			},
+			"Manual.Curve-771e8cd9-8299-4af9-b84a-6775f5f7dab9":	{
+				"$Position":	{
+					"$x":	11028,
+					"$y":	-10437
+				},
+				"$Title":	"Manua Curve"
+			},
+			"CurvePoint.Curve-ae6ea83c-24a9-4b3b-a16c-cad9fb6fc134":	{
+				"$Position":	{
+					"$x":	11987,
+					"$y":	-10422
+				}
+			},
+			"CurvePoint.Curve-a5307eb3-ecf8-4989-93cc-8b14e7930050":	{
+				"$Position":	{
+					"$x":	11987,
+					"$y":	-10289
+				}
+			},
+			"CurvePoint.Curve-bbaff639-8954-48ed-892a-5425910ce47a":	{
+				"$Position":	{
+					"$x":	11987,
+					"$y":	-10157
+				}
+			},
+			"CurvePoint.Curve-f42fb977-99f4-44e1-85a9-7a65bc80737b":	{
+				"$Position":	{
+					"$x":	11987,
+					"$y":	-10024
+				}
+			},
+			"CurvePoint.Curve-2cb359b2-479c-4da0-9e6f-c30d5979ca67":	{
+				"$Position":	{
+					"$x":	11987,
+					"$y":	-9891
+				}
+			},
+			"CurvePoint.Curve-4ad2127f-0bbb-44c1-8a3c-721abd027106":	{
+				"$Position":	{
+					"$x":	11987,
+					"$y":	-9758
+				}
+			},
+			"Sum.Density-6e31db81-53b8-437f-8606-ed2127286842":	{
+				"$Position":	{
+					"$x":	11028,
+					"$y":	-10808
+				}
+			},
+			"BaseHeight.Density-d4633d9a-0aae-49d7-92b0-872cc6852a66":	{
+				"$Position":	{
+					"$x":	11702,
+					"$y":	-10995
+				}
+			},
+			"Normalizer.Density-d8854ff2-a5d6-40db-8086-94b0227065be":	{
+				"$Position":	{
+					"$x":	11694,
+					"$y":	-10754
+				}
+			},
+			"SimplexNoise2D.Density-80176c4c-af67-43a2-aac0-463a70387c7e":	{
+				"$Position":	{
+					"$x":	12354,
+					"$y":	-10754
 				}
 			},
 			"CurveMapper.Density-be331cce-dbbb-4a6b-80c7-b5e95f59c62e":	{
 				"$Position":	{
-					"$x":	10030,
-					"$y":	-9052
+					"$x":	8376,
+					"$y":	-10225
 				}
 			},
 			"Manual.Curve-7b787a72-44e4-491a-a2d7-b48fe5905794":	{
 				"$Position":	{
-					"$x":	10704,
-					"$y":	-8917
+					"$x":	9050,
+					"$y":	-10090
 				}
 			},
 			"CurvePoint.Curve-993b43cb-82bc-41ff-a2da-fe70fd3f2a23":	{
 				"$Position":	{
-					"$x":	11666,
-					"$y":	-8917
+					"$x":	10012,
+					"$y":	-10090
 				}
 			},
 			"CurvePoint.Curve-a95704d1-2d4a-4307-81fe-ce8444fff87e":	{
 				"$Position":	{
-					"$x":	11666,
-					"$y":	-8784
+					"$x":	10012,
+					"$y":	-9957
 				}
 			},
 			"BaseHeight.Density-8e77cb3a-0a58-4fb3-b48a-78b8f252f1ee":	{
 				"$Position":	{
-					"$x":	10704,
-					"$y":	-9193
+					"$x":	9050,
+					"$y":	-10366
 				}
 			},
 			"Constant.Density-0145839f-99fc-404b-96e4-5a6a1cf5b52f":	{
 				"$Position":	{
-					"$x":	2807,
-					"$y":	-12765
+					"$x":	3128,
+					"$y":	-12915
 				}
 			},
 			"CurveMapper.Density-cfbb094a-b602-4509-8666-fc32a6b061fd":	{
 				"$Position":	{
-					"$x":	2807,
-					"$y":	-12491
+					"$x":	3128,
+					"$y":	-12641
 				}
 			},
 			"Manual.Curve-044346c6-257e-4373-9232-664dd9ce4ae2":	{
 				"$Position":	{
-					"$x":	3453,
-					"$y":	-12335
+					"$x":	3774,
+					"$y":	-12485
 				}
 			},
 			"CurvePoint.Curve-6f296764-ba18-445c-bb89-894602f6bd43":	{
 				"$Position":	{
-					"$x":	4383,
-					"$y":	-12335
+					"$x":	4704,
+					"$y":	-12485
 				}
 			},
 			"CurvePoint.Curve-e2c513f4-1e9b-4807-a42e-6b4190614649":	{
 				"$Position":	{
-					"$x":	4383,
-					"$y":	-12202
+					"$x":	4704,
+					"$y":	-12352
 				}
 			},
 			"CurvePoint.Curve-cc25b9e9-1183-474f-9c1d-d5199bc011da":	{
 				"$Position":	{
-					"$x":	4383,
-					"$y":	-12069
+					"$x":	4704,
+					"$y":	-12219
 				}
 			},
 			"CurvePoint.Curve-8a9787ae-9c1c-4191-beb2-64f9496193de":	{
 				"$Position":	{
-					"$x":	4383,
-					"$y":	-11937
+					"$x":	4704,
+					"$y":	-12087
 				}
 			},
 			"BaseHeight.Density-319e1122-fb11-40ba-af5d-470a27656b4e":	{
 				"$Position":	{
-					"$x":	3453,
-					"$y":	-12566
+					"$x":	3774,
+					"$y":	-12716
 				}
 			},
 			"Key.MultiMix.Density-563d520f-5c23-405a-9e07-0ad81c055099":	{
 				"$Position":	{
-					"$x":	2807,
-					"$y":	-12282
+					"$x":	3128,
+					"$y":	-12432
 				}
 			},
 			"Key.MultiMix.Density-3a943e3c-49ce-45e0-966d-0fb3911bbd04":	{
 				"$Position":	{
-					"$x":	2807,
-					"$y":	-12149
+					"$x":	3128,
+					"$y":	-12299
 				}
 			},
 			"Key.MultiMix.Density-54d6ca70-e957-423c-8463-1a88478c5fa7":	{
 				"$Position":	{
-					"$x":	2807,
-					"$y":	-12016
+					"$x":	3128,
+					"$y":	-12166
 				}
 			},
 			"Solidity.MaterialProvider-fe143081-b93b-4a04-bfe3-4cb1de1e3e43":	{
@@ -4229,6 +4350,24 @@
 				"$Position":	{
 					"$x":	10017,
 					"$y":	-7679
+				}
+			},
+			"Multiplier.Density-a5a64e57-04f4-4e03-9ca1-871eca9d2299":	{
+				"$Position":	{
+					"$x":	10691,
+					"$y":	-8160
+				}
+			},
+			"SimplexNoise2D.Density-69296d3c-7b08-45f8-b9d8-0a31f9a85dce":	{
+				"$Position":	{
+					"$x":	11305,
+					"$y":	-8160
+				}
+			},
+			"Constant.Density-bd8ff824-494f-4f69-8a57-e387911e2db7":	{
+				"$Position":	{
+					"$x":	10691,
+					"$y":	-8027
 				}
 			},
 			"Multiplier.Density-e6518b42-73ca-45af-a981-aff39be4c122":	{
@@ -6535,211 +6674,6 @@
 					"$y":	13857
 				}
 			},
-			"Constant.EnvironmentProvider-9d435dc0-ffa2-4de6-886d-c6e8b54f3b44":	{
-				"$Position":	{
-					"$x":	-3336,
-					"$y":	-2918
-				}
-			},
-			"Constant.TintProvider-20fa68de-61e3-4ecc-aac3-9af55bc33e29":	{
-				"$Position":	{
-					"$x":	-3007,
-					"$y":	-1837
-				}
-			},
-			"CurveMapper.Density-57692022-acf9-4259-ae48-cf09de7ed66c":	{
-				"$Position":	{
-					"$x":	9455,
-					"$y":	-1116
-				}
-			},
-			"Manual.Curve-aff1e99e-1ae0-426b-bded-ede5a577f383":	{
-				"$Position":	{
-					"$x":	10094,
-					"$y":	-1064
-				}
-			},
-			"CurvePoint.Curve-840e986f-3015-4e6c-a4e1-466d8dfae0f0":	{
-				"$Position":	{
-					"$x":	11045,
-					"$y":	-1064
-				}
-			},
-			"CurvePoint.Curve-e740ade5-9f27-4ddc-8962-db1c1b411a62":	{
-				"$Position":	{
-					"$x":	11045,
-					"$y":	-800
-				}
-			},
-			"BaseHeight.Density-cf21ed8d-7bd5-4982-8a55-d0eea46a76d2":	{
-				"$Position":	{
-					"$x":	10094,
-					"$y":	-1325
-				}
-			},
-			"FastGradientWarp.Density-5caab338-b2ec-4d67-961b-60d2ba52db80":	{
-				"$Position":	{
-					"$x":	12335,
-					"$y":	-15290
-				}
-			},
-			"Material-c80f7443-99cf-44d8-ae29-ab5367b169c3":	{
-				"$Position":	{
-					"$x":	6100,
-					"$y":	8649
-				}
-			},
-			"Delimiter.FieldFunction.MaterialProvider-86b211be-0ccb-4251-935f-4c488d23e548":	{
-				"$Position":	{
-					"$x":	10510,
-					"$y":	-1696
-				}
-			},
-			"Constant.MaterialProvider-c6026a71-ae44-4595-a18b-8dff31667b24":	{
-				"$Position":	{
-					"$x":	10946,
-					"$y":	-1696
-				}
-			},
-			"Material-2362c273-8dfa-495c-a30f-bf86a11943ae":	{
-				"$Position":	{
-					"$x":	11582,
-					"$y":	-1696
-				}
-			},
-			"Occurrence.Positions-1dbfda0f-ab7c-437f-b66c-a131eda5547d":	{
-				"$Position":	{
-					"$x":	13758,
-					"$y":	11481
-				}
-			},
-			"SimplexNoise2D.Density-c674e876-a081-4244-9564-fb5bb0aa1c0e":	{
-				"$Position":	{
-					"$x":	14571,
-					"$y":	11652
-				}
-			},
-			"Manual.Curve-771e8cd9-8299-4af9-b84a-6775f5f7dab9":	{
-				"$Position":	{
-					"$x":	12301,
-					"$y":	-10439
-				},
-				"$Title":	"Manua Curve"
-			},
-			"CurvePoint.Curve-ae6ea83c-24a9-4b3b-a16c-cad9fb6fc134":	{
-				"$Position":	{
-					"$x":	13260,
-					"$y":	-10074
-				}
-			},
-			"CurvePoint.Curve-a5307eb3-ecf8-4989-93cc-8b14e7930050":	{
-				"$Position":	{
-					"$x":	13260,
-					"$y":	-9941
-				}
-			},
-			"CurvePoint.Curve-bbaff639-8954-48ed-892a-5425910ce47a":	{
-				"$Position":	{
-					"$x":	13260,
-					"$y":	-9809
-				}
-			},
-			"CurvePoint.Curve-f42fb977-99f4-44e1-85a9-7a65bc80737b":	{
-				"$Position":	{
-					"$x":	13260,
-					"$y":	-9676
-				}
-			},
-			"CurvePoint.Curve-2cb359b2-479c-4da0-9e6f-c30d5979ca67":	{
-				"$Position":	{
-					"$x":	13260,
-					"$y":	-9543
-				}
-			},
-			"CurvePoint.Curve-4ad2127f-0bbb-44c1-8a3c-721abd027106":	{
-				"$Position":	{
-					"$x":	13260,
-					"$y":	-9410
-				}
-			},
-			"Max.Density-b53665ce-cfa7-47df-b905-059124226d62":	{
-				"$Position":	{
-					"$x":	10239,
-					"$y":	-11159
-				}
-			},
-			"Imported.Density-97374bf9-8246-4fb8-80a2-9a3542d74530":	{
-				"$Position":	{
-					"$x":	11032,
-					"$y":	-11271
-				}
-			},
-			"Sum.Density-2776bb5e-3fe7-49e9-a6f1-ebe6d66d2c22":	{
-				"$Position":	{
-					"$x":	10958,
-					"$y":	-10943
-				}
-			},
-			"Imported.Density-6b1ac150-3f2f-4cfd-8917-40d79aafac7f":	{
-				"$Position":	{
-					"$x":	11719,
-					"$y":	-11064
-				}
-			},
-			"CurveMapper.Density-38586c1d-4cf9-4788-b618-19598c45f642":	{
-				"$Position":	{
-					"$x":	11627,
-					"$y":	-10574
-				}
-			},
-			"BaseHeight.Density-d4633d9a-0aae-49d7-92b0-872cc6852a66":	{
-				"$Position":	{
-					"$x":	12975,
-					"$y":	-10997
-				}
-			},
-			"Sum.Density-6e31db81-53b8-437f-8606-ed2127286842":	{
-				"$Position":	{
-					"$x":	12301,
-					"$y":	-10810
-				}
-			},
-			"Normalizer.Density-d8854ff2-a5d6-40db-8086-94b0227065be":	{
-				"$Position":	{
-					"$x":	12967,
-					"$y":	-10756
-				}
-			},
-			"SimplexNoise2D.Density-80176c4c-af67-43a2-aac0-463a70387c7e":	{
-				"$Position":	{
-					"$x":	13627,
-					"$y":	-10756
-				}
-			},
-			"Exported.Density-fb1e804d-17dd-4ae3-8125-73c58e643a65":	{
-				"$Position":	{
-					"$x":	9539,
-					"$y":	-13407
-				}
-			},
-			"YSampled.Density-25618b4f-3a16-4231-a307-f640e392a7cb":	{
-				"$Position":	{
-					"$x":	9621,
-					"$y":	-11159
-				}
-			},
-			"Normalizer.Density-ab1b1945-9ab8-42f8-8516-72d866721e0b":	{
-				"$Position":	{
-					"$x":	11719,
-					"$y":	-11377
-				}
-			},
-			"CellNoise2D.Density-59516686-7a5f-449f-93a7-0df9e5af8249":	{
-				"$Position":	{
-					"$x":	12373,
-					"$y":	-11378
-				}
-			},
 			"Runtime-cd3ee86b-1b7d-4e20-8abb-97bf3775c31f":	{
 				"$Position":	{
 					"$x":	160,
@@ -6752,6 +6686,24 @@
 					"$y":	16540
 				}
 			},
+			"Occurrence.Positions-c10cdf3c-ea97-4b66-b1ad-5ebbe5cb0216":	{
+				"$Position":	{
+					"$x":	1696,
+					"$y":	16062
+				}
+			},
+			"Sum.Density-6fe91402-b6ff-4e62-8898-c9a489c6feaa":	{
+				"$Position":	{
+					"$x":	2546,
+					"$y":	16100
+				}
+			},
+			"Normalizer.Density-9810a4d4-2f35-4960-9825-d78220b4a36e":	{
+				"$Position":	{
+					"$x":	3236,
+					"$y":	15782
+				}
+			},
 			"Pow.Density-eae0f719-f569-44de-ab1b-a40eddab076a":	{
 				"$Position":	{
 					"$x":	3851,
@@ -6762,6 +6714,30 @@
 				"$Position":	{
 					"$x":	4445,
 					"$y":	15782
+				}
+			},
+			"Normalizer.Density-5f848d3e-4ae5-49c1-9f27-7e0cf184f194":	{
+				"$Position":	{
+					"$x":	3248,
+					"$y":	16103
+				}
+			},
+			"SimplexNoise2D.Density-1327c6b9-4139-44e5-8f6d-db3c48431c7e":	{
+				"$Position":	{
+					"$x":	3863,
+					"$y":	16103
+				}
+			},
+			"Clamp.Density-3d1b5df9-9511-4caa-a23d-da304e203ea6":	{
+				"$Position":	{
+					"$x":	3248,
+					"$y":	16446
+				}
+			},
+			"Imported.Density-42f91e37-97ab-4aac-9b51-4b0b5acbe59f":	{
+				"$Position":	{
+					"$x":	3863,
+					"$y":	16446
 				}
 			},
 			"Scaler.Positions-66adefaf-c820-4d8c-beaa-84ee36a583cc":	{
@@ -7046,48 +7022,6 @@
 					"$y":	17262
 				}
 			},
-			"Linear.Scanner-76f4ee45-198b-406e-ab79-beed344471b8":	{
-				"$Position":	{
-					"$x":	3444,
-					"$y":	17768
-				}
-			},
-			"Integer.Range-3193e0ad-1f8b-40f6-af6b-98bc71052ba7":	{
-				"$Position":	{
-					"$x":	4063,
-					"$y":	17806
-				}
-			},
-			"Occurrence.Positions-c10cdf3c-ea97-4b66-b1ad-5ebbe5cb0216":	{
-				"$Position":	{
-					"$x":	1696,
-					"$y":	16062
-				}
-			},
-			"Imported.Density-42f91e37-97ab-4aac-9b51-4b0b5acbe59f":	{
-				"$Position":	{
-					"$x":	3863,
-					"$y":	16446
-				}
-			},
-			"Sum.Density-6fe91402-b6ff-4e62-8898-c9a489c6feaa":	{
-				"$Position":	{
-					"$x":	2546,
-					"$y":	16100
-				}
-			},
-			"Normalizer.Density-5f848d3e-4ae5-49c1-9f27-7e0cf184f194":	{
-				"$Position":	{
-					"$x":	3248,
-					"$y":	16103
-				}
-			},
-			"SimplexNoise2D.Density-1327c6b9-4139-44e5-8f6d-db3c48431c7e":	{
-				"$Position":	{
-					"$x":	3863,
-					"$y":	16103
-				}
-			},
 			"BlockSet.Pattern-2813ecc1-f777-46d3-bd98-6aca2ff1b8d8":	{
 				"$Position":	{
 					"$x":	4606,
@@ -7112,112 +7046,16 @@
 					"$y":	17590
 				}
 			},
-			"Normalizer.Density-9810a4d4-2f35-4960-9825-d78220b4a36e":	{
+			"Linear.Scanner-76f4ee45-198b-406e-ab79-beed344471b8":	{
 				"$Position":	{
-					"$x":	3236,
-					"$y":	15782
+					"$x":	3444,
+					"$y":	17768
 				}
 			},
-			"Clamp.Density-3d1b5df9-9511-4caa-a23d-da304e203ea6":	{
+			"Integer.Range-3193e0ad-1f8b-40f6-af6b-98bc71052ba7":	{
 				"$Position":	{
-					"$x":	3248,
-					"$y":	16446
-				}
-			},
-			"SimplexNoise2D.Density-69296d3c-7b08-45f8-b9d8-0a31f9a85dce":	{
-				"$Position":	{
-					"$x":	11305,
-					"$y":	-8160
-				}
-			},
-			"Multiplier.Density-a5a64e57-04f4-4e03-9ca1-871eca9d2299":	{
-				"$Position":	{
-					"$x":	10691,
-					"$y":	-8160
-				}
-			},
-			"Constant.Density-bd8ff824-494f-4f69-8a57-e387911e2db7":	{
-				"$Position":	{
-					"$x":	10691,
-					"$y":	-8027
-				}
-			},
-			"DensityDelimited.TintProvider-20aca61a-d8f4-4e1e-b9e8-0552cd3cb1bb":	{
-				"$Position":	{
-					"$x":	-4037,
-					"$y":	-2154
-				}
-			},
-			"SimplexNoise2D.Density-a39bfe4f-6b3c-46ea-8c73-12c42befe49f":	{
-				"$Position":	{
-					"$x":	-1936,
-					"$y":	-2623
-				}
-			},
-			"Sum.Density-e06353cc-955b-4a55-952e-004e732e918a":	{
-				"$Position":	{
-					"$x":	-3284,
-					"$y":	-2392
-				}
-			},
-			"Multiplier.Density-f4b3ab1c-5c2a-492c-8f9c-d767d9333d86":	{
-				"$Position":	{
-					"$x":	-2551,
-					"$y":	-2623
-				}
-			},
-			"Constant.Density-5802817e-9497-499d-b903-771185de39ab":	{
-				"$Position":	{
-					"$x":	-2551,
-					"$y":	-2490
-				}
-			},
-			"Multiplier.Density-451222da-0a63-474d-b5b6-4b406a9a541a":	{
-				"$Position":	{
-					"$x":	-2551,
-					"$y":	-2259
-				}
-			},
-			"SimplexNoise2D.Density-2435bf01-d4d3-4668-bbdc-389b956374c2":	{
-				"$Position":	{
-					"$x":	-1936,
-					"$y":	-2259
-				}
-			},
-			"Constant.Density-29a1ee4b-502f-416c-bfe8-745756fa02e3":	{
-				"$Position":	{
-					"$x":	-2551,
-					"$y":	-2126
-				}
-			},
-			"Delimiter.DensityDelimited.TintProvider-c2dacddc-e0bb-4fac-82f9-2084c3ca59c8":	{
-				"$Position":	{
-					"$x":	-3311,
-					"$y":	-1756
-				}
-			},
-			"Decimal.Range-c0d3d5b8-7549-4252-9e2e-152ea519da70":	{
-				"$Position":	{
-					"$x":	-3007,
-					"$y":	-1653
-				}
-			},
-			"Delimiter.DensityDelimited.TintProvider-18111aeb-05f8-46b8-8be9-877b7688af0f":	{
-				"$Position":	{
-					"$x":	-3311,
-					"$y":	-1421
-				}
-			},
-			"Constant.TintProvider-1de35dcf-820d-4510-89ed-0bb3e16a32ea":	{
-				"$Position":	{
-					"$x":	-3007,
-					"$y":	-1502
-				}
-			},
-			"Decimal.Range-8d39d644-a760-47ab-9256-beabf7ab9044":	{
-				"$Position":	{
-					"$x":	-3007,
-					"$y":	-1318
+					"$x":	4063,
+					"$y":	17806
 				}
 			},
 			"Runtime-29472e0c-0b3a-4a9f-a35e-2ae2b9d87139":	{
@@ -7364,6 +7202,36 @@
 					"$y":	20407
 				}
 			},
+			"BlockSet.Pattern-111210c9-4c88-4bc3-aa29-63734b37df17":	{
+				"$Position":	{
+					"$x":	2661,
+					"$y":	20827
+				}
+			},
+			"BlockSet.BlockMask-569d84bc-75fd-42a3-a7d6-00d24caed17b":	{
+				"$Position":	{
+					"$x":	3309,
+					"$y":	20827
+				}
+			},
+			"Material-920365af-68d5-47ae-be16-53010c850e63":	{
+				"$Position":	{
+					"$x":	3838,
+					"$y":	20827
+				}
+			},
+			"Material-f8ede8ac-8eb8-40fa-bef2-a69a8407f592":	{
+				"$Position":	{
+					"$x":	3838,
+					"$y":	20960
+				}
+			},
+			"Material-1981aefd-f147-4581-950e-20cc8ac43ed5":	{
+				"$Position":	{
+					"$x":	3838,
+					"$y":	21093
+				}
+			},
 			"Linear.Scanner-4b861eab-ec62-4a7d-b910-23360e165e07":	{
 				"$Position":	{
 					"$x":	1973,
@@ -7472,150 +7340,6 @@
 					"$y":	21911
 				}
 			},
-			"Floor.Pattern-ed71eb5a-6757-48c9-99ea-7a19066a588e":	{
-				"$Position":	{
-					"$x":	2900,
-					"$y":	22613
-				}
-			},
-			"BlockType.Pattern-fdeeb1e7-1a32-4d76-b096-c0fbd2a98edd":	{
-				"$Position":	{
-					"$x":	3529,
-					"$y":	22543
-				}
-			},
-			"Material-ba8f0b3b-7a26-4327-98f0-d5519359293e":	{
-				"$Position":	{
-					"$x":	4189,
-					"$y":	22544
-				}
-			},
-			"BlockSet.Pattern-dec034d4-f23e-4a55-a3ca-69a705606c63":	{
-				"$Position":	{
-					"$x":	3612,
-					"$y":	22748
-				}
-			},
-			"BlockSet.BlockMask-a26c7262-e40d-4c8f-b0d0-343bdd845ffc":	{
-				"$Position":	{
-					"$x":	4238,
-					"$y":	22752
-				}
-			},
-			"Linear.Scanner-2ac4f9a8-e353-4197-b004-81a5465ae4dc":	{
-				"$Position":	{
-					"$x":	2905,
-					"$y":	22877
-				}
-			},
-			"Integer.Range-1130e182-73c8-42ac-82e5-2ed23c77d735":	{
-				"$Position":	{
-					"$x":	3524,
-					"$y":	22921
-				}
-			},
-			"BlockSet.Pattern-111210c9-4c88-4bc3-aa29-63734b37df17":	{
-				"$Position":	{
-					"$x":	2661,
-					"$y":	20827
-				}
-			},
-			"BlockSet.BlockMask-569d84bc-75fd-42a3-a7d6-00d24caed17b":	{
-				"$Position":	{
-					"$x":	3309,
-					"$y":	20827
-				}
-			},
-			"Material-920365af-68d5-47ae-be16-53010c850e63":	{
-				"$Position":	{
-					"$x":	3838,
-					"$y":	20827
-				}
-			},
-			"Material-f8ede8ac-8eb8-40fa-bef2-a69a8407f592":	{
-				"$Position":	{
-					"$x":	3838,
-					"$y":	20960
-				}
-			},
-			"Material-1981aefd-f147-4581-950e-20cc8ac43ed5":	{
-				"$Position":	{
-					"$x":	3838,
-					"$y":	21093
-				}
-			},
-			"Material-ee6de939-f7c8-45b5-88f8-0550af54a5fd":	{
-				"$Position":	{
-					"$x":	13713,
-					"$y":	-1655
-				}
-			},
-			"Material-ca4b5916-b41e-4997-98a4-af60ef06384d":	{
-				"$Position":	{
-					"$x":	13713,
-					"$y":	-1788
-				}
-			},
-			"Material-faf2f990-66f0-44fb-aa17-7fe28966b2e0":	{
-				"$Position":	{
-					"$x":	13713,
-					"$y":	-1522
-				}
-			},
-			"Material-ebfaab87-9c59-4d33-9681-a6b0c49e9822":	{
-				"$Position":	{
-					"$x":	13713,
-					"$y":	-1389
-				}
-			},
-			"Material-f41b7b5e-a995-4635-b51e-5ce3f4d9ac78":	{
-				"$Position":	{
-					"$x":	13713,
-					"$y":	-1123
-				}
-			},
-			"Material-ab71fc03-9cfc-469b-8c9c-7ff5f8dbea5b":	{
-				"$Position":	{
-					"$x":	13713,
-					"$y":	-1256
-				}
-			},
-			"Material-c1e7d7a4-2fbe-472c-8074-aa390eb9bbb3":	{
-				"$Position":	{
-					"$x":	13713,
-					"$y":	-990
-				}
-			},
-			"Material-f3e9a1a6-44df-4ee7-a6be-8bf5213386b6":	{
-				"$Position":	{
-					"$x":	4774,
-					"$y":	22887
-				}
-			},
-			"Material-41210f23-eff1-4453-af30-bf151fb61fe5":	{
-				"$Position":	{
-					"$x":	4774,
-					"$y":	22754
-				}
-			},
-			"Material-923149e2-24c8-473e-9936-55dc4586ebe3":	{
-				"$Position":	{
-					"$x":	4774,
-					"$y":	23286
-				}
-			},
-			"Material-0623d732-ea89-4074-bbe8-2d850c34c1ff":	{
-				"$Position":	{
-					"$x":	4774,
-					"$y":	23153
-				}
-			},
-			"Material-22a3fe11-3faf-4456-8b1e-20a0a01b74ac":	{
-				"$Position":	{
-					"$x":	4774,
-					"$y":	23020
-				}
-			},
 			"Entry.Weighted.Prop-58d41140-5fa4-4681-9e94-ba83067f0a93":	{
 				"$Position":	{
 					"$x":	3732,
@@ -7663,6 +7387,240 @@
 					"$x":	5130,
 					"$y":	22211
 				}
+			},
+			"Floor.Pattern-ed71eb5a-6757-48c9-99ea-7a19066a588e":	{
+				"$Position":	{
+					"$x":	2900,
+					"$y":	22613
+				}
+			},
+			"BlockType.Pattern-fdeeb1e7-1a32-4d76-b096-c0fbd2a98edd":	{
+				"$Position":	{
+					"$x":	3529,
+					"$y":	22543
+				}
+			},
+			"Material-ba8f0b3b-7a26-4327-98f0-d5519359293e":	{
+				"$Position":	{
+					"$x":	4189,
+					"$y":	22544
+				}
+			},
+			"BlockSet.Pattern-dec034d4-f23e-4a55-a3ca-69a705606c63":	{
+				"$Position":	{
+					"$x":	3612,
+					"$y":	22748
+				}
+			},
+			"BlockSet.BlockMask-a26c7262-e40d-4c8f-b0d0-343bdd845ffc":	{
+				"$Position":	{
+					"$x":	4238,
+					"$y":	22752
+				}
+			},
+			"Material-41210f23-eff1-4453-af30-bf151fb61fe5":	{
+				"$Position":	{
+					"$x":	4774,
+					"$y":	22754
+				}
+			},
+			"Material-f3e9a1a6-44df-4ee7-a6be-8bf5213386b6":	{
+				"$Position":	{
+					"$x":	4774,
+					"$y":	22887
+				}
+			},
+			"Material-22a3fe11-3faf-4456-8b1e-20a0a01b74ac":	{
+				"$Position":	{
+					"$x":	4774,
+					"$y":	23020
+				}
+			},
+			"Material-0623d732-ea89-4074-bbe8-2d850c34c1ff":	{
+				"$Position":	{
+					"$x":	4774,
+					"$y":	23153
+				}
+			},
+			"Material-923149e2-24c8-473e-9936-55dc4586ebe3":	{
+				"$Position":	{
+					"$x":	4774,
+					"$y":	23286
+				}
+			},
+			"Linear.Scanner-2ac4f9a8-e353-4197-b004-81a5465ae4dc":	{
+				"$Position":	{
+					"$x":	2905,
+					"$y":	22877
+				}
+			},
+			"Integer.Range-1130e182-73c8-42ac-82e5-2ed23c77d735":	{
+				"$Position":	{
+					"$x":	3524,
+					"$y":	22921
+				}
+			},
+			"Constant.EnvironmentProvider-9d435dc0-ffa2-4de6-886d-c6e8b54f3b44":	{
+				"$Position":	{
+					"$x":	-489,
+					"$y":	-4109
+				}
+			},
+			"DensityDelimited.TintProvider-20aca61a-d8f4-4e1e-b9e8-0552cd3cb1bb":	{
+				"$Position":	{
+					"$x":	-1190,
+					"$y":	-3345
+				}
+			},
+			"Sum.Density-e06353cc-955b-4a55-952e-004e732e918a":	{
+				"$Position":	{
+					"$x":	-437,
+					"$y":	-3583
+				}
+			},
+			"Multiplier.Density-f4b3ab1c-5c2a-492c-8f9c-d767d9333d86":	{
+				"$Position":	{
+					"$x":	295,
+					"$y":	-3814
+				}
+			},
+			"SimplexNoise2D.Density-a39bfe4f-6b3c-46ea-8c73-12c42befe49f":	{
+				"$Position":	{
+					"$x":	910,
+					"$y":	-3814
+				}
+			},
+			"Constant.Density-5802817e-9497-499d-b903-771185de39ab":	{
+				"$Position":	{
+					"$x":	295,
+					"$y":	-3681
+				}
+			},
+			"Multiplier.Density-451222da-0a63-474d-b5b6-4b406a9a541a":	{
+				"$Position":	{
+					"$x":	295,
+					"$y":	-3450
+				}
+			},
+			"SimplexNoise2D.Density-2435bf01-d4d3-4668-bbdc-389b956374c2":	{
+				"$Position":	{
+					"$x":	910,
+					"$y":	-3450
+				}
+			},
+			"Constant.Density-29a1ee4b-502f-416c-bfe8-745756fa02e3":	{
+				"$Position":	{
+					"$x":	295,
+					"$y":	-3317
+				}
+			},
+			"Delimiter.DensityDelimited.TintProvider-c2dacddc-e0bb-4fac-82f9-2084c3ca59c8":	{
+				"$Position":	{
+					"$x":	-464,
+					"$y":	-2947
+				}
+			},
+			"Constant.TintProvider-20fa68de-61e3-4ecc-aac3-9af55bc33e29":	{
+				"$Position":	{
+					"$x":	-160,
+					"$y":	-3028
+				}
+			},
+			"Decimal.Range-c0d3d5b8-7549-4252-9e2e-152ea519da70":	{
+				"$Position":	{
+					"$x":	-160,
+					"$y":	-2844
+				}
+			},
+			"Delimiter.DensityDelimited.TintProvider-18111aeb-05f8-46b8-8be9-877b7688af0f":	{
+				"$Position":	{
+					"$x":	-464,
+					"$y":	-2612
+				}
+			},
+			"Constant.TintProvider-1de35dcf-820d-4510-89ed-0bb3e16a32ea":	{
+				"$Position":	{
+					"$x":	-160,
+					"$y":	-2693
+				}
+			},
+			"Decimal.Range-8d39d644-a760-47ab-9256-beabf7ab9044":	{
+				"$Position":	{
+					"$x":	-160,
+					"$y":	-2509
+				}
+			},
+			"CurveMapper.Density-57692022-acf9-4259-ae48-cf09de7ed66c":	{
+				"$Position":	{
+					"$x":	9455,
+					"$y":	-1116
+				}
+			},
+			"Manual.Curve-aff1e99e-1ae0-426b-bded-ede5a577f383":	{
+				"$Position":	{
+					"$x":	10094,
+					"$y":	-1064
+				}
+			},
+			"CurvePoint.Curve-840e986f-3015-4e6c-a4e1-466d8dfae0f0":	{
+				"$Position":	{
+					"$x":	11045,
+					"$y":	-1064
+				}
+			},
+			"CurvePoint.Curve-e740ade5-9f27-4ddc-8962-db1c1b411a62":	{
+				"$Position":	{
+					"$x":	11045,
+					"$y":	-931
+				}
+			},
+			"BaseHeight.Density-cf21ed8d-7bd5-4982-8a55-d0eea46a76d2":	{
+				"$Position":	{
+					"$x":	10094,
+					"$y":	-1325
+				}
+			},
+			"FastGradientWarp.Density-5caab338-b2ec-4d67-961b-60d2ba52db80":	{
+				"$Position":	{
+					"$x":	11062,
+					"$y":	-15288
+				}
+			},
+			"Material-c80f7443-99cf-44d8-ae29-ab5367b169c3":	{
+				"$Position":	{
+					"$x":	6100,
+					"$y":	8649
+				}
+			},
+			"Delimiter.FieldFunction.MaterialProvider-86b211be-0ccb-4251-935f-4c488d23e548":	{
+				"$Position":	{
+					"$x":	10510,
+					"$y":	-1696
+				}
+			},
+			"Constant.MaterialProvider-c6026a71-ae44-4595-a18b-8dff31667b24":	{
+				"$Position":	{
+					"$x":	10946,
+					"$y":	-1696
+				}
+			},
+			"Material-2362c273-8dfa-495c-a30f-bf86a11943ae":	{
+				"$Position":	{
+					"$x":	11582,
+					"$y":	-1696
+				}
+			},
+			"Occurrence.Positions-1dbfda0f-ab7c-437f-b66c-a131eda5547d":	{
+				"$Position":	{
+					"$x":	13758,
+					"$y":	11481
+				}
+			},
+			"SimplexNoise2D.Density-c674e876-a081-4244-9564-fb5bb0aa1c0e":	{
+				"$Position":	{
+					"$x":	14571,
+					"$y":	11652
+				}
 			}
 		},
 		"$FloatingNodes":	[{
@@ -7674,12 +7632,12 @@
 					"Type":	"Manual",
 					"Points":	[{
 							"$NodeId":	"CurvePoint.Curve-840e986f-3015-4e6c-a4e1-466d8dfae0f0",
-							"In":	10,
-							"Out":	-50
+							"In":	20.0,
+							"Out":	-50.0
 						}, {
 							"$NodeId":	"CurvePoint.Curve-e740ade5-9f27-4ddc-8962-db1c1b411a62",
-							"In":	200,
-							"Out":	50
+							"In":	210.0,
+							"Out":	50.0
 						}]
 				},
 				"Inputs":	[{
@@ -7693,11 +7651,11 @@
 				"$NodeId":	"FastGradientWarp.Density-5caab338-b2ec-4d67-961b-60d2ba52db80",
 				"Type":	"FastGradientWarp",
 				"Skip":	false,
-				"WarpScale":	30,
+				"WarpScale":	30.0,
 				"WarpPersistence":	0.5,
-				"WarpLacunarity":	2,
+				"WarpLacunarity":	2.0,
 				"WarpOctaves":	1,
-				"WarpFactor":	7,
+				"WarpFactor":	7.0,
 				"Seed":	"A",
 				"Inputs":	[]
 			}, {
@@ -7706,8 +7664,8 @@
 				"SolidBottomUp":	false
 			}, {
 				"$NodeId":	"Delimiter.FieldFunction.MaterialProvider-86b211be-0ccb-4251-935f-4c488d23e548",
-				"From":	0,
-				"To":	1,
+				"From":	0.0,
+				"To":	1.0,
 				"Material":	{
 					"$NodeId":	"Constant.MaterialProvider-c6026a71-ae44-4595-a18b-8dff31667b24",
 					"Type":	"Constant",
@@ -7727,40 +7685,12 @@
 					"$NodeId":	"SimplexNoise2D.Density-c674e876-a081-4244-9564-fb5bb0aa1c0e",
 					"Type":	"SimplexNoise2D",
 					"Skip":	false,
-					"Lacunarity":	2,
+					"Lacunarity":	2.0,
 					"Persistence":	0.5,
 					"Octaves":	2,
-					"Scale":	300,
+					"Scale":	300.0,
 					"Seed":	"C"
 				}
-			}, {
-				"$NodeId":	"Material-ee6de939-f7c8-45b5-88f8-0550af54a5fd",
-				"Solid":	"Soil_Basalt_Gravel",
-				"SolidBottomUp":	false
-			}, {
-				"$NodeId":	"Material-ca4b5916-b41e-4997-98a4-af60ef06384d",
-				"Solid":	"Rock_Basalt",
-				"SolidBottomUp":	false
-			}, {
-				"$NodeId":	"Material-faf2f990-66f0-44fb-aa17-7fe28966b2e0",
-				"Solid":	"Soil_Pebbles_Frozen",
-				"SolidBottomUp":	false
-			}, {
-				"$NodeId":	"Material-ebfaab87-9c59-4d33-9681-a6b0c49e9822",
-				"Solid":	"",
-				"SolidBottomUp":	false
-			}, {
-				"$NodeId":	"Material-f41b7b5e-a995-4635-b51e-5ce3f4d9ac78",
-				"Solid":	"Rock_Shale",
-				"SolidBottomUp":	false
-			}, {
-				"$NodeId":	"Material-ab71fc03-9cfc-469b-8c9c-7ff5f8dbea5b",
-				"Solid":	"Rock_Calcite",
-				"SolidBottomUp":	false
-			}, {
-				"$NodeId":	"Material-c1e7d7a4-2fbe-472c-8074-aa390eb9bbb3",
-				"Solid":	"Rock_Basalt",
-				"SolidBottomUp":	false
 			}],
 		"$Links":	{
 			"55c1b6f7-d046-4aba-b79e-98b03f0d7bba":	{
@@ -7776,8 +7706,8 @@
 		},
 		"$Groups":	[{
 				"$Position":	{
-					"$x":	2023.25,
-					"$y":	-13427.8125
+					"$x":	2344.375,
+					"$y":	-13578.5625
 				},
 				"$width":	2925.75,
 				"$height":	1673.0625,
@@ -7824,16 +7754,16 @@
 				"$name":	"3D Noise with performance masks"
 			}, {
 				"$Position":	{
-					"$x":	11578,
-					"$y":	-16015.8125
+					"$x":	10305,
+					"$y":	-16014
 				},
 				"$width":	9307.5625,
 				"$height":	1655.625,
 				"$name":	"MountainTops (Spikes)"
 			}, {
 				"$Position":	{
-					"$x":	10322.625,
-					"$y":	-14071.125
+					"$x":	9049.625,
+					"$y":	-14069.3125
 				},
 				"$width":	6486.6875,
 				"$height":	2593.75,
@@ -7841,10 +7771,10 @@
 			}, {
 				"$Position":	{
 					"$x":	6189.4375,
-					"$y":	-7993.1875
+					"$y":	-8230.1875
 				},
 				"$width":	6919.75,
-				"$height":	4895.125,
+				"$height":	5132.125,
 				"$name":	"Snow/Ice"
 			}, {
 				"$Position":	{
@@ -7908,7 +7838,7 @@
 					"$y":	18514.5
 				},
 				"$width":	8110.8125,
-				"$height":	2591.875,
+				"$height":	2787.625,
 				"$name":	"Sticks"
 			}, {
 				"$Position":	{
@@ -7918,8 +7848,25 @@
 				"$width":	6355.125,
 				"$height":	2062.875,
 				"$name":	"Rubble"
+			}, {
+				"$Position":	{
+					"$x":	8198,
+					"$y":	-11428.3125
+				},
+				"$width":	4959,
+				"$height":	1958.25,
+				"$name":	"Small cliffs in the valleys"
 			}],
-		"$Comments":	[],
+		"$Comments":	[{
+				"$Position":	{
+					"$x":	12317.3125,
+					"$y":	-12862.75
+				},
+				"$width":	866.75,
+				"$height":	407.5,
+				"$name":	"Comment",
+				"$text":	"I didnt create a seperate biome for rivers and lakes. \r\nInstead I use a combination of river- and lake-noise to create the base shape of both the mountain and the glacier-biome. \r\nThis way all rivers and lakes look way more integrated into the actual biomes."
+			}],
 		"$WorkspaceID":	"HytaleGenerator - Biome"
 	}
 }

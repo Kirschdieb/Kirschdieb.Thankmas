@@ -1,7 +1,7 @@
 {
   "Type": "NoiseRange",
   "Biomes": [],
-  "DefaultBiome": "ChristmasMountains",
+  "DefaultBiome": "WinterMountains",
   "DefaultTransitionDistance": 32,
   "MaxBiomeEdgeDistance": 32,
   "Density": {
