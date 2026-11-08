@@ -1,7 +1,7 @@
 {
   "Type": "NoiseRange",
   "Biomes": [],
-  "DefaultBiome": "Mountains",
+  "DefaultBiome": "Test",
   "DefaultTransitionDistance": 32,
   "MaxBiomeEdgeDistance": 32,
   "Density": {
