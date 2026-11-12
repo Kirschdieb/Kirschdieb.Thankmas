@@ -5114,6 +5114,14 @@
 										"Type":	"Prefab",
 										"Skip":	false,
 										"WeightedPrefabPaths":	[{
+												"$NodeId":	"WeightedPath.Prefab.Prop-32bd0b9b-686c-4f59-a8a7-cf9f1a6c2fb7",
+												"Path":	"Monuments/Encounter/Zone3/Tier2/Frozen/Outpost",
+												"Weight":	0.05
+											}, {
+												"$NodeId":	"WeightedPath.Prefab.Prop-69d23e4b-76db-4c2d-96a7-63809cc522c9",
+												"Path":	"Monuments/Encounter/Shale/Frozen",
+												"Weight":	0.1
+											}, {
 												"$NodeId":	"WeightedPath.Prefab.Prop-c2872de5-58a1-4f06-bfcc-ed9bef77f919",
 												"Path":	"Monuments/Encounter/Zone3/Tier3/Outpost_Boss",
 												"Weight":	0.05
@@ -5143,9 +5151,17 @@
 										"Type":	"Prefab",
 										"Skip":	false,
 										"WeightedPrefabPaths":	[{
+												"$NodeId":	"WeightedPath.Prefab.Prop-adf78cc4-5e1b-4fde-8365-79fa6fa59d49",
+												"Path":	"Monuments/Encounter/Zone3/Tier2/Normal/Outpost",
+												"Weight":	0.05
+											}, {
+												"$NodeId":	"WeightedPath.Prefab.Prop-da50ebdc-1c42-4419-8449-a7f3614d5a4b",
+												"Path":	"Monuments/Encounter/Zone3/Tier2/Normal/Quarry",
+												"Weight":	0.05
+											}, {
 												"$NodeId":	"WeightedPath.Prefab.Prop-d06d92b6-4646-41ed-9b78-6410b828f2ce",
 												"Path":	"Monuments/Incidental/Shale/Ruins/Normal",
-												"Weight":	1.0
+												"Weight":	0.8
 											}],
 										"LegacyPath":	false,
 										"LoadEntities":	true,
@@ -5903,7 +5919,7 @@
 					"Delimiters":	[{
 							"$NodeId":	"Delimiter.Positions-c0f52b34-5aea-4c8f-92c9-6a5de7f3fb9e",
 							"Min":	-1,
-							"Max":	0.5
+							"Max":	0.3
 						}],
 					"Positions":	{
 						"$NodeId":	"Scaler.Positions-82a32b63-6b04-4de7-808d-1dd963a5c33b",
@@ -5945,11 +5961,19 @@
 							"WeightedPrefabPaths":	[{
 									"$NodeId":	"WeightedPath.Prefab.Prop-d9483bc3-1d9c-4192-8e7e-6f06e65ef657",
 									"Path":	"Cave/Nodes/Rock_Shale_Thankmas/High",
-									"Weight":	0.5
+									"Weight":	0.4
 								}, {
 									"$NodeId":	"WeightedPath.Prefab.Prop-c5bb92b6-b917-4744-adab-bd9d39d27afd",
 									"Path":	"Cave/Nodes/Tree_Spiral_Thankmas",
-									"Weight":	0.5
+									"Weight":	0.4
+								}, {
+									"$NodeId":	"WeightedPath.Prefab.Prop-b75ee666-6b8f-456b-b097-312773620e6f",
+									"Path":	"Cave/Nodes/Rock_Stone/Crystal",
+									"Weight":	0.1
+								}, {
+									"$NodeId":	"WeightedPath.Prefab.Prop-9a35b17a-b5a0-4c38-9f9a-6e92394928fd",
+									"Path":	"Cave/Nodes/Rock_Stone/Goblin",
+									"Weight":	0.1
 								}],
 							"LegacyPath":	false,
 							"LoadEntities":	true,
@@ -11682,8 +11706,8 @@
 			},
 			"WeightedPath.Prefab.Prop-d06d92b6-4646-41ed-9b78-6410b828f2ce":	{
 				"$Position":	{
-					"$x":	-3413,
-					"$y":	14147
+					"$x":	-3366,
+					"$y":	14412
 				}
 			},
 			"Decimal.Range-2c60e8bf-7eae-4d96-a220-9574f11584b7":	{
@@ -13146,8 +13170,8 @@
 			},
 			"WeightedPath.Prefab.Prop-c5bb92b6-b917-4744-adab-bd9d39d27afd":	{
 				"$Position":	{
-					"$x":	-1687,
-					"$y":	29249
+					"$x":	-1659,
+					"$y":	29180
 				}
 			},
 			"Floor.Pattern-41394053-3fb6-4ff6-9b58-d382390905cf":	{
@@ -13236,8 +13260,44 @@
 			},
 			"WeightedPath.Prefab.Prop-d9483bc3-1d9c-4192-8e7e-6f06e65ef657":	{
 				"$Position":	{
-					"$x":	-1687,
-					"$y":	29116
+					"$x":	-1659,
+					"$y":	29047
+				}
+			},
+			"WeightedPath.Prefab.Prop-b75ee666-6b8f-456b-b097-312773620e6f":	{
+				"$Position":	{
+					"$x":	-1659,
+					"$y":	29313
+				}
+			},
+			"WeightedPath.Prefab.Prop-9a35b17a-b5a0-4c38-9f9a-6e92394928fd":	{
+				"$Position":	{
+					"$x":	-1659,
+					"$y":	29446
+				}
+			},
+			"WeightedPath.Prefab.Prop-69d23e4b-76db-4c2d-96a7-63809cc522c9":	{
+				"$Position":	{
+					"$x":	-3394,
+					"$y":	13475
+				}
+			},
+			"WeightedPath.Prefab.Prop-adf78cc4-5e1b-4fde-8365-79fa6fa59d49":	{
+				"$Position":	{
+					"$x":	-3366,
+					"$y":	14147
+				}
+			},
+			"WeightedPath.Prefab.Prop-da50ebdc-1c42-4419-8449-a7f3614d5a4b":	{
+				"$Position":	{
+					"$x":	-3366,
+					"$y":	14279
+				}
+			},
+			"WeightedPath.Prefab.Prop-32bd0b9b-686c-4f59-a8a7-cf9f1a6c2fb7":	{
+				"$Position":	{
+					"$x":	-3394,
+					"$y":	13342
 				}
 			}
 		},
