@@ -1,0 +1,125 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Plant_Moss_Cave_Green.name"
+  },
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "BlockType": {
+    "CustomModel": "Blocks/Foliage/Plants/Dense_Medium_3Rows_Lit.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Foliage/Plants/Glowworms_Textures/Glowworm_Strings_Full.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "None",
+    "Flags": {},
+    "Gathering": {
+      "Tools": [
+        {
+          "Type": "Shears"
+        }
+      ],
+      "Soft": {
+        "DropList": "Rock_Crystal_Blue_Small",
+        "IsWeaponBreakable": true
+      },
+      "UseDefaultDropWhenPlaced": true
+    },
+    "BlockParticleSetId": "Dust",
+    "MovementSettings": {
+      "IsClimbable": true
+    },
+    "MaxSupportDistance": 4,
+    "Support": {
+      "Up": [
+        {
+          "FaceType": "Full"
+        },
+        {
+          "Rotate": false,
+          "FaceType": "Branch"
+        }
+      ]
+    },
+    "Supporting": {
+      "Down": [
+        {
+          "FaceType": "Branch"
+        }
+      ],
+      "Up": [
+        {
+          "FaceType": "Branch"
+        }
+      ]
+    },
+    "RandomRotation": "None",
+    "ParticleColor": "#38b3b3",
+    "BlockSoundSetId": "Cocoon",
+    "PhysicalMaterialId": "Foliage",
+    "TextureComputedColor": "#9B9B9B",
+    "Light": {
+      "Color": "#256",
+      "Radius": 1
+    },
+    "RequiresAlphaBlending": true,
+    "CustomModelScale": 1.115,
+    "Tint": [
+      "#a1ecec"
+    ],
+    "State": {
+      "Definitions": {
+        "Tip": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Foliage/Plants/Glowworms_Textures/Glowworm_Strings_Tip.png",
+              "Weight": 1
+            }
+          ]
+        }
+      }
+    },
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate",
+      "TemplateShapeAssetId": "Glowworm_Strings_ConnectedBlockTemplate",
+      "TemplateShapeBlockPatterns": {
+        "Full": "Glowworm_Strings",
+        "Tip": "*Glowworm_Strings_State_Definitions_Tip"
+      }
+    },
+    "CubeShadingMode": "Standard",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "Material": "Empty"
+  },
+  "PlayerAnimationsId": "Item",
+  "Categories": [
+    "Blocks.Plants"
+  ],
+  "IconProperties": {
+    "Scale": 0.6,
+    "Rotation": [
+      20,
+      32,
+      0
+    ],
+    "Translation": [
+      -3,
+      -13
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Glowworm_Strings.png",
+  "Tags": {
+    "Type": [
+      "Plant"
+    ],
+    "Family": [
+      "Moss"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Splatty",
+  "ItemLevel": 19
+}

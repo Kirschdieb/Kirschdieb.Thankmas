@@ -1,0 +1,79 @@
+{
+  "ConnectsToOtherMaterials": false,
+  "DefaultShape": "Tip",
+  "Shapes": {
+    "Full": {
+      "FaceTags": {
+        "Up": [
+          "GlowwormStringsConnection"
+        ],
+        "Down": [
+          "GlowwormStringsConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Up": [
+                  "GlowwormStringsConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Tip": {
+      "FaceTags": {
+        "Up": [
+          "GlowwormStringsConnection"
+        ],
+        "Down": [
+          "GlowwormStringsConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Down": [
+                  "GlowwormStringsConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Up": [
+                  "GlowwormStringsConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
