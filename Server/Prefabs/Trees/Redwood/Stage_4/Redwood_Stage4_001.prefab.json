@@ -610,6 +610,13 @@
     },
     {
       "x": -7,
+      "y": 19,
+      "z": 0,
+      "name": "Plant_Leaves_Redwood",
+      "support": 15
+    },
+    {
+      "x": -7,
       "y": 41,
       "z": 0,
       "name": "Plant_Leaves_Redwood",
@@ -1075,6 +1082,13 @@
     },
     {
       "x": -6,
+      "y": 19,
+      "z": -2,
+      "name": "Plant_Leaves_Redwood",
+      "support": 15
+    },
+    {
+      "x": -6,
       "y": 41,
       "z": -2,
       "name": "Plant_Leaves_Redwood",
@@ -1177,6 +1191,20 @@
       "z": -2,
       "name": "Plant_Leaves_Redwood",
       "rotation": 3
+    },
+    {
+      "x": -6,
+      "y": 19,
+      "z": -1,
+      "name": "Plant_Leaves_Redwood",
+      "support": 15
+    },
+    {
+      "x": -6,
+      "y": 20,
+      "z": -1,
+      "name": "Plant_Leaves_Redwood",
+      "support": 15
     },
     {
       "x": -6,
@@ -1340,6 +1368,20 @@
     },
     {
       "x": -6,
+      "y": 19,
+      "z": 0,
+      "name": "Plant_Leaves_Redwood",
+      "support": 15
+    },
+    {
+      "x": -6,
+      "y": 20,
+      "z": 0,
+      "name": "Plant_Leaves_Redwood",
+      "support": 15
+    },
+    {
+      "x": -6,
       "y": 41,
       "z": 0,
       "name": "Plant_Leaves_Redwood",
@@ -1522,6 +1564,20 @@
     },
     {
       "x": -6,
+      "y": 19,
+      "z": 1,
+      "name": "Plant_Leaves_Redwood",
+      "support": 15
+    },
+    {
+      "x": -6,
+      "y": 20,
+      "z": 1,
+      "name": "Plant_Leaves_Redwood",
+      "support": 15
+    },
+    {
+      "x": -6,
       "y": 41,
       "z": 1,
       "name": "Plant_Leaves_Redwood",
@@ -1687,6 +1743,13 @@
       "z": 1,
       "name": "Plant_Leaves_Redwood",
       "rotation": 1
+    },
+    {
+      "x": -6,
+      "y": 19,
+      "z": 2,
+      "name": "Plant_Leaves_Redwood",
+      "support": 15
     },
     {
       "x": -6,
@@ -2369,6 +2432,13 @@
       "z": 0,
       "name": "Plant_Leaves_Redwood",
       "rotation": 3
+    },
+    {
+      "x": -5,
+      "y": 19,
+      "z": 1,
+      "name": "Plant_Leaves_Redwood",
+      "support": 15
     },
     {
       "x": -5,
@@ -3632,6 +3702,12 @@
     },
     {
       "x": -3,
+      "y": 25,
+      "z": 1,
+      "name": "Plant_Crop_Mushroom_Shelve_Yellow"
+    },
+    {
+      "x": -3,
       "y": 62,
       "z": 1,
       "name": "Wood_Redwood_Trunk_Full",
@@ -3706,6 +3782,12 @@
       "y": 8,
       "z": 2,
       "name": "Wood_Redwood_Trunk_Full"
+    },
+    {
+      "x": -3,
+      "y": 18,
+      "z": 2,
+      "name": "Plant_Crop_Mushroom_Shelve_Yellow"
     },
     {
       "x": -3,
@@ -4382,9 +4464,21 @@
     },
     {
       "x": -2,
+      "y": 14,
+      "z": -2,
+      "name": "Plant_Crop_Mushroom_Shelve_Yellow"
+    },
+    {
+      "x": -2,
       "y": 20,
       "z": -2,
       "name": "Wood_Redwood_Trunk_Full"
+    },
+    {
+      "x": -2,
+      "y": 22,
+      "z": -2,
+      "name": "Plant_Crop_Mushroom_Shelve_Yellow"
     },
     {
       "x": -2,
@@ -5593,6 +5687,12 @@
     },
     {
       "x": -2,
+      "y": 30,
+      "z": 3,
+      "name": "Plant_Crop_Mushroom_Shelve_Yellow"
+    },
+    {
+      "x": -2,
       "y": 73,
       "z": 3,
       "name": "Plant_Leaves_Redwood"
@@ -9047,6 +9147,12 @@
     },
     {
       "x": -1,
+      "y": 31,
+      "z": 3,
+      "name": "Plant_Crop_Mushroom_Shelve_Yellow"
+    },
+    {
+      "x": -1,
       "y": 56,
       "z": 3,
       "name": "Wood_Redwood_Trunk_Full",
@@ -9125,6 +9231,12 @@
       "y": 7,
       "z": 4,
       "name": "Wood_Redwood_Trunk_Full"
+    },
+    {
+      "x": -1,
+      "y": 8,
+      "z": 4,
+      "name": "Plant_Crop_Mushroom_Shelve_Yellow"
     },
     {
       "x": -1,
@@ -10475,6 +10587,12 @@
     },
     {
       "x": 0,
+      "y": 18,
+      "z": -2,
+      "name": "Plant_Crop_Mushroom_Shelve_Yellow"
+    },
+    {
+      "x": 0,
       "y": 40,
       "z": -2,
       "name": "Plant_Leaves_Redwood"
@@ -10485,6 +10603,12 @@
       "z": -2,
       "name": "Wood_Redwood_Branch_Long",
       "rotation": 4
+    },
+    {
+      "x": 0,
+      "y": 45,
+      "z": -2,
+      "name": "Plant_Crop_Mushroom_Shelve_Yellow"
     },
     {
       "x": 0,
@@ -13893,9 +14017,21 @@
     },
     {
       "x": 1,
+      "y": 10,
+      "z": -2,
+      "name": "Plant_Crop_Mushroom_Shelve_Yellow"
+    },
+    {
+      "x": 1,
       "y": 40,
       "z": -2,
       "name": "Plant_Leaves_Redwood"
+    },
+    {
+      "x": 1,
+      "y": 42,
+      "z": -2,
+      "name": "Plant_Crop_Mushroom_Shelve_Yellow"
     },
     {
       "x": 1,
@@ -15849,6 +15985,12 @@
       "y": 8,
       "z": 3,
       "name": "Wood_Redwood_Trunk_Full"
+    },
+    {
+      "x": 1,
+      "y": 12,
+      "z": 3,
+      "name": "Plant_Crop_Mushroom_Shelve_Yellow"
     },
     {
       "x": 1,
@@ -15925,6 +16067,12 @@
       "y": 4,
       "z": 4,
       "name": "Wood_Redwood_Trunk_Full"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "z": 4,
+      "name": "Plant_Crop_Mushroom_Shelve_Yellow"
     },
     {
       "x": 1,
@@ -17091,6 +17239,12 @@
       "y": 5,
       "z": -2,
       "name": "Wood_Redwood_Trunk_Full"
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "z": -2,
+      "name": "Plant_Crop_Mushroom_Shelve_Yellow"
     },
     {
       "x": 2,
@@ -17319,6 +17473,12 @@
       "y": 14,
       "z": 0,
       "name": "Wood_Redwood_Trunk_Full"
+    },
+    {
+      "x": 2,
+      "y": 37,
+      "z": 0,
+      "name": "Plant_Crop_Mushroom_Shelve_Yellow"
     },
     {
       "x": 2,
@@ -17415,6 +17575,12 @@
     },
     {
       "x": 2,
+      "y": 35,
+      "z": 1,
+      "name": "Plant_Crop_Mushroom_Shelve_Yellow"
+    },
+    {
+      "x": 2,
       "y": 66,
       "z": 1,
       "name": "Wood_Redwood_Trunk_Full",
@@ -17471,6 +17637,12 @@
     },
     {
       "x": 2,
+      "y": 13,
+      "z": 2,
+      "name": "Plant_Crop_Mushroom_Shelve_Yellow"
+    },
+    {
+      "x": 2,
       "y": 40,
       "z": 2,
       "name": "Wood_Redwood_Trunk_Full",
@@ -17501,6 +17673,12 @@
       "y": 81,
       "z": 2,
       "name": "Plant_Leaves_Redwood"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "z": 3,
+      "name": "Plant_Crop_Mushroom_Shelve_Yellow"
     },
     {
       "x": 2,
@@ -18141,6 +18319,12 @@
       "y": 4,
       "z": 0,
       "name": "Wood_Redwood_Trunk_Full"
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "z": 0,
+      "name": "Plant_Crop_Mushroom_Shelve_Yellow"
     },
     {
       "x": 3,
@@ -18894,6 +19078,12 @@
       "y": 0,
       "z": 2,
       "name": "Wood_Redwood_Trunk_Full"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": 2,
+      "name": "Plant_Crop_Mushroom_Shelve_Yellow"
     },
     {
       "x": 4,

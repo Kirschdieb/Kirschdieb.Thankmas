@@ -1,0 +1,12 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Wood_Redwood_Trunk_Full.name"
+  },
+  "Parent": "Wood_Redwood_Trunk",
+  "Icon": "Icons/ItemsGenerated/Wood_Redwood_Trunk_Full.png",
+  "Categories": [
+    "Blocks.Wood"
+  ],
+  "SubCategory": "Trees",
+  "Set": "Wood_Redwood"
+}
