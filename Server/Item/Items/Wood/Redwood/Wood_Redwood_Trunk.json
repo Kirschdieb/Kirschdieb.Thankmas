@@ -1,0 +1,33 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Wood_Redwood_Trunk.name",
+    "Description": "server.items.Wood_Redwood_Trunk.description"
+  },
+  "Parent": "Wood_Oak_Trunk",
+  "Icon": "Icons/ItemsGenerated/Wood_Redwood_Trunk.png",
+  "Categories": [
+    "Blocks.Wood"
+  ],
+  "SubCategory": "Trees",
+  "Set": "Wood_Redwood",
+  "ResourceTypes": [
+    {
+      "Id": "Wood_Redwood"
+    },
+    {
+      "Id": "Wood_Redwood_Trunk"
+    },
+    {
+      "Id": "Wood_Trunk"
+    },
+    {
+      "Id": "Wood_All"
+    },
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ]
+}
